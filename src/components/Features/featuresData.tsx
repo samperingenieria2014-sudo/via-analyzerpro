@@ -6,7 +6,7 @@ const featuresData: Feature[] = [
     id: 1,
     icon: (
       <Image
-    src="/images/features/1.Auditoria Vial.png"
+    src="/images/Features/1.Auditoria Vial.png"
     alt="Auditoría de Seguridad Vial"
     width={80}
     height={80}
@@ -20,7 +20,7 @@ const featuresData: Feature[] = [
     id: 2,
     icon: (
       <Image
-    src="/images/features/2. Analisis Geometrico.png"
+    src="/images/Features/2. Analisis Geometrico.png"
     alt="Análisis Geométrico Automatizado"
     width={80}
     height={80}
@@ -34,7 +34,7 @@ const featuresData: Feature[] = [
     id: 3,
     icon: (
       <Image
-    src="/images/features/3. Señalizacion Inteligente1.png"
+    src="/images/Features/3. Señalizacion Inteligente.png"
     alt="Señalización Inteligente"
     width={100}
     height={100}
@@ -48,7 +48,7 @@ const featuresData: Feature[] = [
     id: 4,
     icon: (
       <Image
-    src="/images/features/4.Compatinilidad Multipais.png"
+    src="/images/Features/4.Compatinilidad Multipais.png"
     alt="Compatibilidad Multipaís"
     width={100}
     height={100}
@@ -62,7 +62,7 @@ const featuresData: Feature[] = [
     id: 5,
     icon: (
       <Image
-    src="/images/features/5.Analisis de Glorietas.png"
+    src="/images/Features/5.Analisis de Glorietas.png"
     alt="Análisis de Glorietas y Óvalos"
     width={100}
     height={100}
@@ -76,7 +76,7 @@ const featuresData: Feature[] = [
     id: 6,
     icon: (
       <Image
-    src="/images/features/6. Validacion Normativa en tiempo menor.png"
+    src="/images/Features/6. Validacion Normativa en tiempo menor.png"
     alt="Validación normativa en menor tiempo"
     width={100}
     height={100}
