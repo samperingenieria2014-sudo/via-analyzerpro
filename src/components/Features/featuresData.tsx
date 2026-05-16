@@ -34,7 +34,7 @@ const featuresData: Feature[] = [
     id: 3,
     icon: (
       <Image
-    src="/images/Features/3. Señalizacion Inteligente.png"
+    src="/images/Features/3. Senalizacion Inteligente.png"
     alt="Señalización Inteligente"
     width={100}
     height={100}
