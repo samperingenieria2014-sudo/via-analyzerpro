@@ -4,6 +4,7 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import CaseStudies from "@/components/CaseStudies";
+import Pricing from "@/components/Pricing";
 
 import { Metadata } from "next";
 
@@ -17,22 +18,12 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      {/* Scroll automático */}
       <ScrollUp />
-
-      {/* HERO */}
       <Hero />
-
-      {/* FEATURES */}
       <Features />
-
-      {/* ABOUT */}
       <AboutSectionOne />
-
-      {/* CASE STUDIES */}
       <CaseStudies />
-
-      {/* CONTACT */}
+      <Pricing />
       <Contact />
     </>
   );
