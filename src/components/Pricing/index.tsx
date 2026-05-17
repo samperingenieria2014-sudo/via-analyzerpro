@@ -106,7 +106,7 @@ const auditoriaPlanes = [
       "Auditoría HV (visibilidad H y V simultánea)",
       "Señales correctivas por hallazgos",
       "Informe ejecutivo + técnico para interventoría",
-      "Coordenadas MAGNA-SIRGAS en todos los entregables",
+      "Coordenadas reales en todos los entregables",
     ],
     noIncluye: [],
     destacado: false,
