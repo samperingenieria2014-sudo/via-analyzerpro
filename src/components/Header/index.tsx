@@ -58,7 +58,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/Logo1.png"
+                  src="/images/logo/Logo Samper Ingenieria.png"
                   alt="Samper Ingeniería y Topografía"
                   width={160}
                   height={53}
