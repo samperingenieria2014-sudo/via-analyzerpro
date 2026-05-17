@@ -1,5 +1,6 @@
 import ScrollUp from "@/components/Common/ScrollUp";
 import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
 import Features from "@/components/Features";
 import Metodologia from "@/components/Metodologia";
 import CaseStudies from "@/components/CaseStudies";
@@ -18,6 +19,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <Stats />
       <Features />
       <Metodologia />
       <CaseStudies />

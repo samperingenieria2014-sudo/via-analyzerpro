@@ -23,7 +23,7 @@ const Hero = () => {
                     href="#contact"
                     className="ease-in-up bg-primary hover:bg-primary/90 shadow-btn hover:shadow-btn-hover rounded-xs px-8 py-4 text-base font-medium text-white transition duration-300"
                   >
-                    Solicitar Demo
+                    Evalúa tu vía
                   </a>
                   <a
                     href="#features"
