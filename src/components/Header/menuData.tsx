@@ -15,18 +15,24 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Normativas",
-    path: "#about",
+    title: "Metodología",
+    path: "#metodologia",
     newTab: false,
   },
   {
     id: 4,
     title: "Casos Reales",
-    path: "/#case-studies",
+    path: "#case-studies",
     newTab: false,
   },
   {
     id: 5,
+    title: "Precios",
+    path: "#pricing",
+    newTab: false,
+  },
+  {
+    id: 6,
     title: "Contacto",
     path: "#contact",
     newTab: false,
