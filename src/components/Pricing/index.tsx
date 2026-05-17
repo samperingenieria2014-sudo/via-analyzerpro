@@ -29,7 +29,7 @@ const senalizacionPlanes = [
     ],
     noIncluye: ["Planos sobre ortofoto", "Informe técnico", "Análisis V85 / Auditoría HV", "Demarcación horizontal"],
     destacado: false,
-    boton: "Solicitar cotización",
+    boton: "Solicitar",
   },
   {
     nombre: "Estándar",
@@ -45,7 +45,7 @@ const senalizacionPlanes = [
     ],
     noIncluye: ["Análisis V85 / Auditoría HV", "Demarcación horizontal"],
     destacado: true,
-    boton: "Solicitar cotización",
+    boton: "Solicitar",
   },
   {
     nombre: "Completo",
@@ -61,7 +61,7 @@ const senalizacionPlanes = [
     ],
     noIncluye: [],
     destacado: false,
-    boton: "Solicitar cotización",
+    boton: "Solicitar",
   },
 ];
 
@@ -79,7 +79,7 @@ const auditoriaPlanes = [
     ],
     noIncluye: ["Velocidad operacional V85", "Consistencia planta-perfil", "Auditoría HV", "Señales correctivas"],
     destacado: false,
-    boton: "Solicitar cotización",
+    boton: "Solicitar",
   },
   {
     nombre: "Estándar",
@@ -94,7 +94,7 @@ const auditoriaPlanes = [
     ],
     noIncluye: ["Auditoría HV", "Señales correctivas por hallazgos"],
     destacado: true,
-    boton: "Solicitar cotización",
+    boton: "Solicitar",
   },
   {
     nombre: "Premium",
@@ -110,7 +110,7 @@ const auditoriaPlanes = [
     ],
     noIncluye: [],
     destacado: false,
-    boton: "Solicitar cotización",
+    boton: "Solicitar",
   },
 ];
 
