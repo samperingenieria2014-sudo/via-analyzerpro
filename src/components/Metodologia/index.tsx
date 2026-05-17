@@ -73,18 +73,18 @@ const metodologia = [
   {
     badge: "Entregables concretos",
     badgeColor: "bg-green-500/10 border-green-500/30 text-green-400",
-    titulo: "Qué recibe el cliente — Inventario técnico completo",
+    titulo: "Qué recibe el cliente — Informe técnico integral",
     descripcion:
-      "Cada proyecto entrega un inventario estructurado con toda la información necesaria para toma de decisiones técnicas, interventoría y cumplimiento normativo.",
+      "Cada proyecto genera un paquete de entregables estructurado que cubre desde los hallazgos geométricos hasta el inventario de señalización, respaldado por normativa oficial y listo para interventoría, licitación o toma de decisiones técnicas.",
     detalle:
-      "No entregamos solo un informe PDF. El cliente recibe una base de datos georreferenciada lista para usar en SIG, interventoría o licitación, con cada señal o hallazgo respaldado por su justificación normativa específica.",
+      "No entregamos solo un PDF. El cliente recibe un informe QA/QC completo con todos los hallazgos clasificados por severidad, junto con una base de datos georreferenciada lista para usar en SIG o importar directamente en Civil 3D.",
     items: [
-      "Abscisa de instalación por señal o hallazgo",
-      "Costado vial (derecho / izquierdo / central)",
-      "Código de señal según MSV 2024 / Manual MTC / Manual MOP",
-      "Justificación normativa por elemento",
-      "Planos sobre ortofoto e informe técnico ejecutivo",
-      "CSV importable directamente en Civil 3D",
+      "Informe QA/QC con hallazgos geométricos clasificados por nivel de riesgo (crítico, alto, medio)",
+      "Checklist normativo por curva horizontal y vertical con cumplimiento documentado",
+      "Hallazgos HV georreferenciados con recomendaciones de intervención y señales correctivas",
+      "Velocidad operacional V85 por tramo con identificación de tramos críticos",
+      "Inventario de señalización vertical con abscisa, costado, código de señal y justificación normativa",
+      "Planos sobre ortofoto, CSV importable en Civil 3D e informe ejecutivo para interventoría",
     ],
     coordenadas: [
       "🇨🇴 MAGNA-SIRGAS — Colombia",
