@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 const Hero = () => {
@@ -13,17 +12,17 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Inteligencia, precisión y cumplimiento en cada kilómetro
+                  {"Inteligencia, precisi\u00f3n y cumplimiento en cada kil\u00f3metro"}
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Somos un equipo de ingenieros especializados en auditoría vial, validación geométrica y señalización. Procesamos tu modelo Civil 3D y entregamos informes técnicos con hallazgos, V85 y señalización bajo normativa INVÍAS, MTC y MOP.
+                <p className="mb-12 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                  {"Somos un equipo de ingenieros especializados en auditor\u00eda vial, validaci\u00f3n geom\u00e9trica y se\u00f1alizaci\u00f3n. Procesamos tu modelo Civil 3D y entregamos informes t\u00e9cnicos con hallazgos, V85 y se\u00f1alizaci\u00f3n bajo normativa INV\u00cdAS, MTC y MOP."}
                 </p>
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                   
                     href="#contact"
                     className="ease-in-up bg-primary hover:bg-primary/90 shadow-btn hover:shadow-btn-hover rounded-xs px-8 py-4 text-base font-medium text-white transition duration-300"
                   >
-                    Evalúa tu vía
+                    {"Eval\u00faa tu v\u00eda"}
                   </a>
                   
                     href="#features"
@@ -39,7 +38,7 @@ const Hero = () => {
         <div className="mt-16 flex justify-center px-4">
           <Image
             src="/images/hero/Hero.png"
-            alt="ViaAnalyzer PRO — Auditoría Vial y Señalización"
+            alt="ViaAnalyzer PRO — Auditoria Vial y Senalizacion"
             width={1400}
             height={800}
             className="rounded-xl shadow-2xl"
