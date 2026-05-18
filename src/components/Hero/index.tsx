@@ -19,17 +19,12 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                   
-                    href="#contact"
-                    className="ease-in-up bg-primary hover:bg-primary/90 shadow-btn hover:shadow-btn-hover rounded-xs px-8 py-4 text-base font-medium text-white transition duration-300"
-                  >
-                    {"Eval\u00faa tu v\u00eda"}
-                  </a>
-                  
-                    href="#features"
-                    className="ease-in-up rounded-xs border border-black/20 bg-white px-8 py-4 text-base font-medium text-black shadow-btn transition duration-300 hover:border-primary hover:text-primary dark:border-white/20 dark:bg-transparent dark:text-white dark:hover:border-primary dark:hover:text-primary"
-                  >
-                    Ver servicios
-                  </a>
+                 <a href="#contact" className="ease-in-up bg-primary hover:bg-primary/90 shadow-btn hover:shadow-btn-hover rounded-xs px-8 py-4 text-base font-medium text-white transition duration-300">
+  Evalua tu via
+</a>
+<a href="#features" className="ease-in-up rounded-xs border border-black/20 bg-white px-8 py-4 text-base font-medium text-black shadow-btn transition duration-300 hover:border-primary hover:text-primary dark:border-white/20 dark:bg-transparent dark:text-white dark:hover:border-primary dark:hover:text-primary">
+  Ver servicios
+</a>
                 </div>
               </div>
             </div>
