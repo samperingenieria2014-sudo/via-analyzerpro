@@ -16,16 +16,16 @@ const Hero = () => {
                   Inteligencia, precisión y cumplimiento en cada kilómetro
                 </h1>
                 <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Optimizamos tu diseño vial mediante validación normativa automatizada, análisis V85, auditoría HV y señalización inteligente para proyectos de infraestructura.
+                  Somos un equipo de ingenieros especializados en auditoría vial, validación geométrica y señalización. Procesamos tu modelo Civil 3D y entregamos informes técnicos con hallazgos, V85 y señalización bajo normativa INVÍAS, MTC y MOP.
                 </p>
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-                  <a
+                  
                     href="#contact"
                     className="ease-in-up bg-primary hover:bg-primary/90 shadow-btn hover:shadow-btn-hover rounded-xs px-8 py-4 text-base font-medium text-white transition duration-300"
                   >
                     Evalúa tu vía
                   </a>
-                  <a
+                  
                     href="#features"
                     className="ease-in-up rounded-xs border border-black/20 bg-white px-8 py-4 text-base font-medium text-black shadow-btn transition duration-300 hover:border-primary hover:text-primary dark:border-white/20 dark:bg-transparent dark:text-white dark:hover:border-primary dark:hover:text-primary"
                   >
@@ -39,7 +39,7 @@ const Hero = () => {
         <div className="mt-16 flex justify-center px-4">
           <Image
             src="/images/hero/Hero.png"
-            alt="Hero"
+            alt="ViaAnalyzer PRO — Auditoría Vial y Señalización"
             width={1400}
             height={800}
             className="rounded-xl shadow-2xl"
