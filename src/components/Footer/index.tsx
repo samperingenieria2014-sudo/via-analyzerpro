@@ -67,9 +67,10 @@ const Footer = () => {
                 <ul>
                   {[
                     { label: "Servicios", href: "#features" },
-                    { label: "Normativas", href: "#about" },
-                    { label: "Casos Reales", href: "#case-studies" },
-                    { label: "Contacto", href: "#contact" },
+{ label: "Metodolog\u00eda", href: "#metodologia" },
+{ label: "Casos Reales", href: "#case-studies" },
+{ label: "Precios", href: "#pricing" },
+{ label: "Contacto", href: "#contact" },
                   ].map((item) => (
                     <li key={item.label}>
                       <a
