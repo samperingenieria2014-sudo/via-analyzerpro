@@ -249,7 +249,7 @@ const CaseStudies = () => {
           Ruta El Colorado
         </span>
         <span className="rounded-full border border-yellow-500/20 bg-yellow-500/10 px-4 py-2 text-sm font-semibold text-yellow-400">
-          Security Operacional
+          Seguridad Operacional
         </span>
       </div>
 
