@@ -288,13 +288,13 @@ const CaseStudies = () => {
 {/* RIGHT - Imagen o Espacio Gráfico */}
 <div className="relative min-h-[350px] bg-white/[0.02] order-1 lg:order-2 flex items-center justify-center border-b lg:border-b-0 lg:border-l border-white/[0.08]">
   <Image
-    src="/images/el-colorado.jpg" // <-- Asegúrate de que coincida con el nombre de tu archivo
+    src="/images/elcolorado.jpg" // <-- Modificado para que coincida exactamente con tu archivo
     alt="Ruta El Colorado - Análisis de visibilidad ViaAnalyzer PRO"
     fill
     className="object-cover"
   />
   
-  {/* Leyenda de colores opcional (estilo la que tienes en el caso de Perú) */}
+  {/* Leyenda de colores del análisis operacional */}
   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
     <div className="flex flex-wrap gap-4">
       <div className="flex items-center gap-2">
