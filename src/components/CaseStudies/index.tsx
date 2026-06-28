@@ -286,24 +286,28 @@ const CaseStudies = () => {
     </div>
 
 {/* RIGHT - Imagen o Espacio Gráfico */}
-<div className="relative min-h-[350px] bg-white/[0.02] order-1 lg:order-2 flex items-center justify-center border-b lg:border-b-0 lg:border-l border-white/[0.08]">
-  <Image
-    src="/images/elcolorado.jpg" // <-- Modificado para que coincida exactamente con tu archivo
-    alt="Ruta El Colorado - Análisis de visibilidad ViaAnalyzer PRO"
-    fill
-    className="object-cover"
-  />
+<div className="relative w-full min-h-[350px] lg:min-h-full bg-white/[0.02] order-1 lg:order-2 overflow-hidden border-b lg:border-b-0 lg:border-l border-white/[0.08]">
+  <div className="absolute inset-0 w-full h-full p-4 flex items-center justify-center">
+    <Image
+      src="/images/elcolorado.jpg"
+      alt="Ruta El Colorado - Análisis de visibilidad ViaAnalyzer PRO"
+      fill
+      sizes="(max-width: 1024px) 100vw, 50vw"
+      className="object-contain rounded-2xl p-2"
+      priority
+    />
+  </div>
   
   {/* Leyenda de colores del análisis operacional */}
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-6 pt-12 z-10">
     <div className="flex flex-wrap gap-4">
       <div className="flex items-center gap-2">
         <span className="h-3 w-8 rounded-full bg-red-500 inline-block" />
-        <span className="text-xs text-white/80">Curvas Críticas</span>
+        <span className="text-xs font-medium text-white/80">Curvas Críticas</span>
       </div>
       <div className="flex items-center gap-2">
         <span className="h-3 w-8 rounded-full bg-yellow-400 inline-block" />
-        <span className="text-xs text-white/80">Déficit DVP</span>
+        <span className="text-xs font-medium text-white/80">Déficit DVP</span>
       </div>
     </div>
   </div>
