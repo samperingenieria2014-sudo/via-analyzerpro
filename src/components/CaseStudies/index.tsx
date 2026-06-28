@@ -233,8 +233,8 @@ const CaseStudies = () => {
         </div>
 
       </div>
-      {/* ===== CASE 3 - CHILE ===== */}
-<div className="relative overflow-hidden rounded-3xl border border-white/[0.08] bg-white/[0.03] shadow-[-] mb-12">
+{/* ===== CASE 3 - CHILE ===== */}
+<div className="relative overflow-hidden rounded-3xl border border-white/[0.08] bg-white/[0.03] mb-12">
   <div className="grid grid-cols-1 lg:grid-cols-2">
     
     {/* LEFT - Contenido */}
@@ -285,26 +285,29 @@ const CaseStudies = () => {
 
     </div>
 
-{/* RIGHT - Imagen o Espacio Gráfico */}
-<div className="relative w-full min-h-[350px] lg:min-h-full bg-white/[0.02] order-1 lg:order-2 overflow-hidden border-b lg:border-b-0 lg:border-l border-white/[0.08] flex items-center justify-center p-4">
-  <img
-    src="/images/Casestudies/el-colorado.png" // <-- Verifica que este sea el nombre exacto de tu archivo en public/images/Casestudies/
-    alt="Ruta El Colorado - Análisis de visibilidad ViaAnalyzer PRO"
-    className="w-full h-auto max-h-[400px] object-contain rounded-2xl"
-  />
-  
-  {/* Leyenda de colores del análisis operacional */}
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-6 pt-12 z-10">
-    <div className="flex flex-wrap gap-4">
-      <div className="flex items-center gap-2">
-        <span className="h-3 w-8 rounded-full bg-red-500 inline-block" />
-        <span className="text-xs font-medium text-white/80">Curvas Críticas</span>
-      </div>
-      <div className="flex items-center gap-2">
-        <span className="h-3 w-8 rounded-full bg-yellow-400 inline-block" />
-        <span className="text-xs font-medium text-white/80">Déficit DVP</span>
+    {/* RIGHT - Imagen o Espacio Gráfico */}
+    <div className="relative w-full min-h-[350px] lg:min-h-full bg-white/[0.02] order-1 lg:order-2 overflow-hidden border-b lg:border-b-0 lg:border-l border-white/[0.08] flex items-center justify-center p-4">
+      <img
+        src="/images/Casestudies/el-colorado.png"
+        alt="Ruta El Colorado - Análisis de visibilidad ViaAnalyzer PRO"
+        className="w-full h-auto max-h-[400px] object-contain rounded-2xl"
+      />
+      
+      {/* Leyenda de colores del análisis operacional */}
+      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-6 pt-12 z-10">
+        <div className="flex flex-wrap gap-4">
+          <div className="flex items-center gap-2">
+            <span className="h-3 w-8 rounded-full bg-red-500 inline-block" />
+            <span className="text-xs font-medium text-white/80">Curvas Críticas</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="h-3 w-8 rounded-full bg-yellow-400 inline-block" />
+            <span className="text-xs font-medium text-white/80">Déficit DVP</span>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 </div>
     </section>
