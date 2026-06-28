@@ -233,6 +233,69 @@ const CaseStudies = () => {
         </div>
 
       </div>
+      {/* ===== CASE 3 - CHILE ===== */}
+<div className="relative overflow-hidden rounded-3xl border border-white/[0.08] bg-white/[0.03] shadow-[-] mb-12">
+  <div className="grid grid-cols-1 lg:grid-cols-2">
+    
+    {/* LEFT - Contenido */}
+    <div className="p-8 lg:p-12 order-2 lg:order-1">
+      
+      {/* Tags */}
+      <div className="mb-5 flex flex-wrap gap-3">
+        <span className="rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm font-semibold text-blue-400">
+          Chile
+        </span>
+        <span className="rounded-full border border-white/[0.08] bg-white/[0.04] px-4 py-2 text-sm font-semibold text-white">
+          Ruta El Colorado
+        </span>
+        <span className="rounded-full border border-yellow-500/20 bg-yellow-500/10 px-4 py-2 text-sm font-semibold text-yellow-400">
+          Seguridad Operacional
+        </span>
+      </div>
+
+      {/* Title */}
+      <h3 className="mb-4 text-2xl font-bold leading-tight text-white lg:text-3xl">
+        En alta montaña, la información correcta y oportuna puede salvar vidas.
+      </h3>
+
+      {/* Description */}
+      <p className="mb-8 text-base leading-relaxed text-body-color">
+        Evaluación integral con <strong>ViaAnalyzer PRO</strong> en un tramo crítico de 2.930 metros. El análisis operacional identificó que el 37% de las curvas presentan radios por debajo del mínimo recomendado y un 62% padece de un severo déficit en la Distancia de Visibilidad de Parada (DVP), requiriendo una optimización urgente en la lógica de señalización preventiva.
+      </p>
+
+      {/* Metrics */}
+      <div className="grid grid-cols-2 gap-4 border-t border-white/[0.08] pt-6">
+        <div>
+          <span className="block text-2xl font-bold text-red-500">33</span>
+          <span className="text-sm text-body-color">Curvas Críticas (R &lt; Mínimo)</span>
+        </div>
+        <div>
+          <span className="block text-2xl font-bold text-yellow-500">8</span>
+          <span className="text-sm text-body-color">Curvas Observadas</span>
+        </div>
+        <div>
+          <span className="block text-2xl font-bold text-green-500">3</span>
+          <span className="text-sm text-body-color">Curvas Conformes</span>
+        </div>
+        <div>
+          <span className="block text-2xl font-bold text-white">45</span>
+          <span className="text-sm text-body-color">Líneas de Tangente</span>
+        </div>
+      </div>
+
+    </div>
+
+    {/* RIGHT - Imagen o Espacio Gráfico */}
+    <div className="relative min-h-[300px] bg-white/[0.02] order-1 lg:order-2 flex items-center justify-center p-8 border-b lg:border-b-0 lg:border-l border-white/[0.08]">
+      {/* Si tienes una imagen en tu carpeta public/, puedes ponerla aquí. Por ejemplo: */}
+      {/* <img src="/images/el-colorado.jpg" alt="Ruta El Colorado" className="object-cover w-full h-full rounded-2xl" /> */}
+      <div className="text-center text-sm text-white/40 italic">
+        Dashboard de Visibilidad - ViaAnalyzer PRO
+      </div>
+    </div>
+
+  </div>
+</div>
     </section>
   );
 };
