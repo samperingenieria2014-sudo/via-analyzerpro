@@ -285,15 +285,27 @@ const CaseStudies = () => {
 
     </div>
 
-    {/* RIGHT - Imagen o Espacio Gráfico */}
-    <div className="relative min-h-[300px] bg-white/[0.02] order-1 lg:order-2 flex items-center justify-center p-8 border-b lg:border-b-0 lg:border-l border-white/[0.08]">
-      {/* Si tienes una imagen en tu carpeta public/, puedes ponerla aquí. Por ejemplo: */}
-      {/* <img src="/images/el-colorado.jpg" alt="Ruta El Colorado" className="object-cover w-full h-full rounded-2xl" /> */}
-      <div className="text-center text-sm text-white/40 italic">
-        Dashboard de Visibilidad - ViaAnalyzer PRO
+{/* RIGHT - Imagen o Espacio Gráfico */}
+<div className="relative min-h-[350px] bg-white/[0.02] order-1 lg:order-2 flex items-center justify-center border-b lg:border-b-0 lg:border-l border-white/[0.08]">
+  <Image
+    src="/images/el-colorado.jpg" // <-- Asegúrate de que coincida con el nombre de tu archivo
+    alt="Ruta El Colorado - Análisis de visibilidad ViaAnalyzer PRO"
+    fill
+    className="object-cover"
+  />
+  
+  {/* Leyenda de colores opcional (estilo la que tienes en el caso de Perú) */}
+  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+    <div className="flex flex-wrap gap-4">
+      <div className="flex items-center gap-2">
+        <span className="h-3 w-8 rounded-full bg-red-500 inline-block" />
+        <span className="text-xs text-white/80">Curvas Críticas</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <span className="h-3 w-8 rounded-full bg-yellow-400 inline-block" />
+        <span className="text-xs text-white/80">Déficit DVP</span>
       </div>
     </div>
-
   </div>
 </div>
     </section>
