@@ -286,17 +286,12 @@ const CaseStudies = () => {
     </div>
 
 {/* RIGHT - Imagen o Espacio Gráfico */}
-<div className="relative w-full min-h-[350px] lg:min-h-full bg-white/[0.02] order-1 lg:order-2 overflow-hidden border-b lg:border-b-0 lg:border-l border-white/[0.08]">
-  <div className="absolute inset-0 w-full h-full p-4 flex items-center justify-center">
-    <Image
-      src="/images/elcolorado.jpg"
-      alt="Ruta El Colorado - Análisis de visibilidad ViaAnalyzer PRO"
-      fill
-      sizes="(max-width: 1024px) 100vw, 50vw"
-      className="object-contain rounded-2xl p-2"
-      priority
-    />
-  </div>
+<div className="relative w-full min-h-[350px] lg:min-h-full bg-white/[0.02] order-1 lg:order-2 overflow-hidden border-b lg:border-b-0 lg:border-l border-white/[0.08] flex items-center justify-center p-4">
+  <img
+    src="/images/Casestudies/el-colorado.png" // <-- Verifica que este sea el nombre exacto de tu archivo en public/images/Casestudies/
+    alt="Ruta El Colorado - Análisis de visibilidad ViaAnalyzer PRO"
+    className="w-full h-auto max-h-[400px] object-contain rounded-2xl"
+  />
   
   {/* Leyenda de colores del análisis operacional */}
   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-6 pt-12 z-10">
