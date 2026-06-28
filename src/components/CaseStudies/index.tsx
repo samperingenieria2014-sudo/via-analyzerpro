@@ -249,7 +249,7 @@ const CaseStudies = () => {
           Ruta El Colorado
         </span>
         <span className="rounded-full border border-yellow-500/20 bg-yellow-500/10 px-4 py-2 text-sm font-semibold text-yellow-400">
-          Seguridad Operacional
+          Security Operacional
         </span>
       </div>
 
@@ -263,24 +263,39 @@ const CaseStudies = () => {
         Evaluación integral con <strong>ViaAnalyzer PRO</strong> en un tramo crítico de 2.930 metros. El análisis operacional identificó que el 37% de las curvas presentan radios por debajo del mínimo recomendado y un 62% padece de un severo déficit en la Distancia de Visibilidad de Parada (DVP), requiriendo una optimización urgente en la lógica de señalización preventiva.
       </p>
 
-      {/* Metrics */}
-      <div className="grid grid-cols-2 gap-4 border-t border-white/[0.08] pt-6">
-        <div>
-          <span className="block text-2xl font-bold text-red-500">33</span>
-          <span className="text-sm text-body-color">Curvas Críticas (R &lt; Mínimo)</span>
+      {/* Metrics - Estilo Recuadros del Caso 2 */}
+      <div className="grid grid-cols-2 gap-4 mb-6">
+        <div className="rounded-2xl border border-red-500/20 bg-red-500/5 p-4">
+          <span className="block text-xs font-bold uppercase tracking-wider text-red-500 mb-1">Curvas Críticas</span>
+          <h4 className="text-2xl font-bold text-white">33</h4>
+          <span className="text-xs text-body-color">R &lt; Mínimo</span>
         </div>
-        <div>
-          <span className="block text-2xl font-bold text-yellow-500">8</span>
-          <span className="text-sm text-body-color">Curvas Observadas</span>
+
+        <div className="rounded-2xl border border-yellow-500/20 bg-yellow-500/5 p-4">
+          <span className="block text-xs font-bold uppercase tracking-wider text-yellow-500 mb-1">Déficit DVP</span>
+          <h4 className="text-2xl font-bold text-white">8</h4>
+          <span className="text-xs text-body-color">Curvas Observadas</span>
         </div>
-        <div>
-          <span className="block text-2xl font-bold text-green-500">3</span>
-          <span className="text-sm text-body-color">Curvas Conformes</span>
+
+        <div className="rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-4">
+          <span className="block text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1">Geometría</span>
+          <h4 className="text-2xl font-bold text-white">3</h4>
+          <span className="text-xs text-body-color">Curvas Conformes</span>
         </div>
-        <div>
-          <span className="block text-2xl font-bold text-white">45</span>
-          <span className="text-sm text-body-color">Líneas de Tangente</span>
+
+        <div className="rounded-2xl border border-white/[0.08] bg-white/[0.02] p-4">
+          <span className="block text-xs font-bold uppercase tracking-wider text-white/60 mb-1">Alineamiento</span>
+          <h4 className="text-2xl font-bold text-white">45</h4>
+          <span className="text-xs text-body-color">Líneas de Tangente</span>
         </div>
+      </div>
+
+      {/* Conclusion - Recuadro Inferior Alargado */}
+      <div className="rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-5">
+        <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">Conclusión técnica</p>
+        <p className="text-sm leading-relaxed text-white">
+          La señalización puramente normativa se quedaba corta ante la complejidad del terreno. Mediante lógica operacional se agruparon secuencias, priorizando restricciones de adelantamiento en perfiles ciegos y reforzando con delineadores óptimos.
+        </p>
       </div>
 
     </div>
