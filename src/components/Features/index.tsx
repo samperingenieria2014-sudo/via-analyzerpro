@@ -1,6 +1,7 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
+import VideoDemo from "../Video";
 
 const Features = () => {
   return (
@@ -57,7 +58,7 @@ const Features = () => {
                 className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-primary px-7 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:scale-[1.03] hover:bg-primary/90"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/xl"
                   className="h-4 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -70,6 +71,9 @@ const Features = () => {
               </a>
             </div>
           </div>
+
+          {/* ── Módulos en Acción (Video Demo) ── */}
+          <VideoDemo />
 
         </div>
       </section>
