@@ -5,16 +5,16 @@ const VideoDemo = () => {
     <div className="mt-20 rounded-3xl border border-white/[0.08] bg-white/[0.02] p-6 lg:p-10 backdrop-blur-sm shadow-[0_0_50px_rgba(0,0,0,0.3)]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         
-        {/* LADO IZQUIERDO — Descripción del módulo colombiano */}
+        {/* LADO IZQUIERDO — Descripción Comercial y Ejecutiva */}
         <div className="space-y-6">
           <span className="inline-block rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-blue-400">
             Módulo Colombia Activo
           </span>
           <h3 className="text-2xl font-bold text-white sm:text-3xl leading-tight">
-            Procesamiento de consistencia y señalización en tiempo real
+            Optimización y Validación Vial en Tiempo Real
           </h3>
           <p className="text-base text-body-color leading-relaxed">
-            En esta demostración de 2 minutos puedes observar cómo **ViaAnalyzer PRO** automatiza la auditoría de seguridad vial bajo la normativa oficial colombiana. 
+            Descubra cómo <strong className="text-white font-bold">nuestra metodología</strong> transforma los datos de ingeniería en decisiones inteligentes de seguridad vial. Este video interactivo muestra la validación de proyectos viales bajo estándares internacionales latinoamericanos, automatizando reportes críticos de costos de señalización, balance de movimientos de tierra y cumplimiento de criterios de visibilidad. Reduzca errores de diseño y optimice la auditoría técnica de sus obras con una interfaz intuitiva de alto rendimiento.
           </p>
           <ul className="space-y-3 text-sm text-white/80">
             <li className="flex items-center gap-3">
