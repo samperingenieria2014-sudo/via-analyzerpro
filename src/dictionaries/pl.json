@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "services": "Usługi",
+    "methodology": "Metodologia",
+    "caseStudies": "Studia przypadków",
+    "pricing": "Cennik",
+    "contact": "Kontakt"
+  },
+  "Footer": {
+    "description": "Inteligentny audyt drogowy oparty na analizie geometrycznej, prędkości miarodajnej V85 oraz oficjalnych przepisach Kolumbii, Peru i Chile.",
+    "visitorStats": "Globalne statystyki odwiedzin",
+    "rights": "Wszelkie prawa zastrzeżone"
+  }
+}

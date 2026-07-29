@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "services": "Services",
+    "methodology": "Methodology",
+    "caseStudies": "Case Studies",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "description": "Intelligent road auditing based on geometric analysis, V85 operating speed, and official regulations of Colombia, Peru, and Chile.",
+    "visitorStats": "Global Visitor Statistics",
+    "rights": "All rights reserved"
+  }
+}

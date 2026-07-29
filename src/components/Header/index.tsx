@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
+import { LanguageSwitcher, LanguageCode } from "./LanguageSwitcher";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -35,6 +36,12 @@ const Header = () => {
     } else {
       setOpenIndex(index);
     }
+  };
+
+  // Manejador de cambio de idioma
+  const handleLanguageChange = (lang: LanguageCode) => {
+    console.log("Idioma seleccionado:", lang);
+    // Aquí se conectará la lógica de cambio de traducción del sitio
   };
 
   const usePathName = usePathname();
@@ -153,13 +160,18 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+              <div className="flex items-center justify-end gap-3 pr-16 lg:pr-0">
                 <Link
                   href="#contact"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-xs px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Solicitar Demo
                 </Link>
+
+                {/* Selector de Idiomas */}
+                <LanguageSwitcher onLanguageChange={handleLanguageChange} />
+
+                {/* Alternador de Tema Claro/Oscuro */}
                 <div>
                   <ThemeToggler />
                 </div>
@@ -173,4 +185,3 @@ const Header = () => {
 };
 
 export default Header;
-

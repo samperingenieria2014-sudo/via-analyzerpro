@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "services": "Servizi",
+    "methodology": "Metodologia",
+    "caseStudies": "Casi di studio",
+    "pricing": "Prezzi",
+    "contact": "Contatto"
+  },
+  "Footer": {
+    "description": "Audit stradale intelligente basato su analisi geometrica, velocità operativa V85 e normative ufficiali di Colombia, Perù e Cile.",
+    "visitorStats": "Statistiche globali dei visitatori",
+    "rights": "Tutti i diritti riservati"
+  }
+}

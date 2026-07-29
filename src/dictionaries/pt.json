@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "services": "Serviços",
+    "methodology": "Metodologia",
+    "caseStudies": "Casos Reais",
+    "pricing": "Preços",
+    "contact": "Contato"
+  },
+  "Footer": {
+    "description": "Auditoria viária inteligente baseada em análise geométrica, velocidade operacional V85 e normas oficiais da Colômbia, Peru e Chile.",
+    "visitorStats": "Estatísticas Globais de Visitantes",
+    "rights": "Todos os direitos reservados"
+  }
+}

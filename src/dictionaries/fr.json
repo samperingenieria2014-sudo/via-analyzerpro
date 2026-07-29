@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "services": "Services",
+    "methodology": "Méthodologie",
+    "caseStudies": "Études de cas",
+    "pricing": "Tarifs",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "description": "Audit routier intelligent basé sur l'analyse géométrique, la vitesse opérationnelle V85 et les réglementations officielles de la Colombie, du Pérou et du Chili.",
+    "visitorStats": "Statistiques globales des visiteurs",
+    "rights": "Tous droits réservés"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "services": "Dienstleistungen",
+    "methodology": "Methodik",
+    "caseStudies": "Fallstudien",
+    "pricing": "Preise",
+    "contact": "Kontakt"
+  },
+  "Footer": {
+    "description": "Intelligente Straßenauditierung basierend auf geometrischer Analyse, V85-Entwurfsgeschwindigkeit und offiziellen Vorschriften von Kolumbien, Peru und Chile.",
+    "visitorStats": "Globale Besucherstatistiken",
+    "rights": "Alle Rechte vorbehalten"
+  }
+}
