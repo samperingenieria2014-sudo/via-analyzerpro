@@ -1,10 +1,34 @@
 {
   "Header": {
+    "home": "Inicio",
     "services": "Servicios",
     "methodology": "Metodología",
     "caseStudies": "Casos Reales",
     "pricing": "Precios",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "demo": "Solicitar Demo"
+  },
+  "Features": {
+    "mainTitle": "Herramientas avanzadas para seguridad vial y análisis geométrico",
+    "mainParagraph": "Automatización técnica orientada a auditorías viales, validación geométrica, señalización y evaluación operacional bajo normativa latinoamericana.",
+    "feature1_title": "Auditoría de Seguridad Vial",
+    "feature1_desc": "Identificamos riesgos ocultos en carreteras, glorietas e intersecciones mediante auditorías técnicas avanzadas basadas en velocidad operacional, visibilidad, geometría y cumplimiento normativo.",
+    "feature2_title": "Análisis Geométrico Automatizado",
+    "feature2_desc": "Validación inteligente de radios, peraltes, sobreanchos, bombeo, espirales, coordinación planta-perfil y distancias de visibilidad bajo normativa vial oficial.",
+    "feature3_title": "Señalización Inteligente",
+    "feature3_desc": "Detectamos inconsistencias críticas en señalización vertical y horizontal, validando ubicación, coherencia normativa, visibilidad y necesidad real según el comportamiento operacional de la vía.",
+    "feature4_title": "Compatibilidad Multipaís",
+    "feature4_desc": "Compatible con normativa Colombia INVÍAS, Perú MTC y Chile MOP, permitiendo auditorías y validaciones geométricas adaptadas a cada estándar técnico oficial.",
+    "feature5_title": "Análisis de Glorietas y Óvalos",
+    "feature5_desc": "Evaluamos deflexión, velocidad de entrada, trayectorias críticas, conflictos vehiculares y seguridad operacional en glorietas urbanas y rurales.",
+    "feature6_title": "Validación normativa en menor tiempo",
+    "feature6_desc": "Reducimos significativamente los tiempos de revisión técnica mediante análisis automatizado de geometría vial, V85, señalización, seguridad vial y hallazgos críticos.",
+    "brochure1Tag": "Brochure Especializado",
+    "brochure1Title": "Señalización y Seguridad Vial",
+    "brochure1Desc": "Metodología V85, auditoría HV, paquetes de servicio y casos reales — 5 páginas.",
+    "brochure2Tag": "Brochure Corporativo",
+    "brochure2Title": "Infraestructura Vial Inteligente",
+    "brochure2Desc": "Portafolio de diseño, automatización técnica y servicios generales de ingeniería — 13 páginas."
   },
   "Footer": {
     "description": "Auditoría vial inteligente basada en análisis geométrico, velocidad operacional V85 y normativa oficial de Colombia, Perú y Chile.",

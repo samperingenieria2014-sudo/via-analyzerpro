@@ -4,10 +4,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
-import { LanguageSwitcher, LanguageCode } from "./LanguageSwitcher";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import menuData from "./menuData";
+import { useLanguage } from "@/context/LanguageContext";
 
 const Header = () => {
+  const { setLanguage } = useLanguage();
+
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -28,7 +31,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleStickyNavbar);
   }, []);
 
-  // submenu handler
+  // Submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
   const handleSubmenu = (index: number) => {
     if (openIndex === index) {
@@ -36,12 +39,6 @@ const Header = () => {
     } else {
       setOpenIndex(index);
     }
-  };
-
-  // Manejador de cambio de idioma
-  const handleLanguageChange = (lang: LanguageCode) => {
-    console.log("Idioma seleccionado:", lang);
-    // Aquí se conectará la lógica de cambio de traducción del sitio
   };
 
   const usePathName = usePathname();
@@ -168,10 +165,9 @@ const Header = () => {
                   Solicitar Demo
                 </Link>
 
-                {/* Selector de Idiomas */}
-                <LanguageSwitcher onLanguageChange={handleLanguageChange} />
+                {/* Conectado directamente a setLanguage del contexto */}
+                <LanguageSwitcher onLanguageChange={(lang) => setLanguage(lang)} />
 
-                {/* Alternador de Tema Claro/Oscuro */}
                 <div>
                   <ThemeToggler />
                 </div>
