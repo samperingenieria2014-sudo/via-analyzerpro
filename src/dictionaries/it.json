@@ -1,14 +1,38 @@
 {
   "Header": {
+    "home": "Home",
     "services": "Servizi",
     "methodology": "Metodologia",
-    "caseStudies": "Casi di studio",
+    "caseStudies": "Casi Reali",
     "pricing": "Prezzi",
-    "contact": "Contatto"
+    "contact": "Contatto",
+    "demo": "Richiedi Demo"
+  },
+  "Features": {
+    "mainTitle": "Strumenti Avanzati per la Sicurezza Stradale e l'Analisi Geometrica",
+    "mainParagraph": "Automazione tecnica orientata ad audit di sicurezza stradale, verifica geometrica, segnaletica e valutazione operativa secondo gli standard tecnici.",
+    "feature1_title": "Audit di Sicurezza Stradale",
+    "feature1_desc": "Identifichiamo rischi nascosti su strade, rotatorie e intersezioni mediante audit tecnici avanzati basati su velocità operativa V85, visibilità e geometria.",
+    "feature2_title": "Analisi Geometrica Automatizzata",
+    "feature2_desc": "Validazione intelligente di raggi, pendenze trasversali, allargamenti, raccordi e distanze di visuale secondo le normative stradali ufficiali.",
+    "feature3_title": "Segnaletica Stradale Intelligente",
+    "feature3_desc": "Rileviamo incoerenze critiche nella segnaletica verticale e orizzontale, verificandone posizione, visibilità e conformità normativa.",
+    "feature4_title": "Compatibilità Multipaese",
+    "feature4_desc": "Compatibile con le normative ufficiali della Colombia (INVÍAS), del Perù (MTC) e del Cile (MOP) per verifiche tecniche personalizzate.",
+    "feature5_title": "Analisi di Rotatorie e Intersezioni",
+    "feature5_desc": "Valutiamo deflessione, velocità di ingresso, ingombri dei veicoli e sicurezza operativa in rotatorie urbane ed extraurbane.",
+    "feature6_title": "Verifica Normativa in Tempi Ridotti",
+    "feature6_desc": "Riduciamo significativamente i tempi di revisione tecnica grazie all'analisi automatizzata di tracciato geometrico, V85 e segnaletica.",
+    "brochure1Tag": "Brochure Specializzata",
+    "brochure1Title": "Segnaletica e Sicurezza Stradale",
+    "brochure1Desc": "Metodologia V85, processo di audit, pacchetti di servizio e casi di studio — 5 pagine.",
+    "brochure2Tag": "Brochure Aziendale",
+    "brochure2Title": "Infrastrutture Stradali Intelligenti",
+    "brochure2Desc": "Portfolio completo di progettazione geometrica, automazione tecnica e servizi d'ingegneria — 13 pagine."
   },
   "Footer": {
     "description": "Audit stradale intelligente basato su analisi geometrica, velocità operativa V85 e normative ufficiali di Colombia, Perù e Cile.",
-    "visitorStats": "Statistiche globali dei visitatori",
+    "visitorStats": "Statistiche Globali dei Visitatori",
     "rights": "Tutti i diritti riservati"
   }
 }

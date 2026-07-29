@@ -1,13 +1,37 @@
 {
   "Header": {
+    "home": "Startseite",
     "services": "Dienstleistungen",
     "methodology": "Methodik",
     "caseStudies": "Fallstudien",
     "pricing": "Preise",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "demo": "Demo Anfordern"
+  },
+  "Features": {
+    "mainTitle": "Erweiterte Werkzeuge für Verkehrssicherheit und Geometrische Analyse",
+    "mainParagraph": "Ingenieurtechnische Automatisierung für Verkehrssicherheitsaudits, geometrische Überprüfung, Beschilderung und betriebliche Bewertung nach technischen Standards.",
+    "feature1_title": "Verkehrssicherheitsaudit",
+    "feature1_desc": "Wir identifizieren verdeckte Risiken auf Straßen, Kreisverkehren und Kreuzungen durch fortgeschrittene Audits auf Basis von Entwurfsgeschwindigkeit V85, Sichtweiten und Geometrie.",
+    "feature2_title": "Automatisierte Geometrische Analyse",
+    "feature2_desc": "Intelligente Überprüfung von Radien, Querneigungen, Fahrbahnverbreiterungen, Übergangsbögen und Sichtweiten gemäß den offiziellen Richtlinien.",
+    "feature3_title": "Intelligente Straßenbeschilderung",
+    "feature3_desc": "Erkennung kritischer Unstimmigkeiten in der vertikalen und horizontalen Beschilderung unter Berücksichtigung von Standort, Sichtbarkeit und Richtlinienkonformität.",
+    "feature4_title": "Mehrländer-Kompatibilität",
+    "feature4_desc": "Kompatibel mit den offiziellen Standards von Kolumbien (INVÍAS), Peru (MTC) und Chile (MOP) für maßgeschneiderte technische Validierungen.",
+    "feature5_title": "Analyse von Kreisverkehren und Knotenpunkten",
+    "feature5_desc": "Bewertung von Ablenkung, Einfahrtsgeschwindigkeiten, Schleppkurven und Konfliktpunkten auf städtischen und außerstädtischen Kreisverkehren.",
+    "feature6_title": "Schnellere Normenprüfung",
+    "feature6_desc": "Erhebliche Verkürzung der technischen Prüfzeiten durch automatisierte Analysen von Trassierung, V85-Geschwindigkeiten, Beschilderung und Sicherheitsmängeln.",
+    "brochure1Tag": "Spezialbroschüre",
+    "brochure1Title": "Beschilderung und Verkehrssicherheit",
+    "brochure1Desc": "V85-Methodik, Audit-Prozesse, Leistungspakete und Praxisbeispiele — 5 Seiten.",
+    "brochure2Tag": "Unternehmensbroschüre",
+    "brochure2Title": "Intelligente Straßeninfrastruktur",
+    "brochure2Desc": "Gesamtes Portfolio für Trassierungsentwurf, technische Automatisierung und Ingenieurdienstleistungen — 13 Seiten."
   },
   "Footer": {
-    "description": "Intelligente Straßenauditierung basierend auf geometrischer Analyse, V85-Entwurfsgeschwindigkeit und offiziellen Vorschriften von Kolumbien, Peru und Chile.",
+    "description": "Intelligentes Straßenaudit auf Basis von Geometrieanalyse, V85-Geschwindigkeit und offiziellen Normen aus Kolumbien, Peru und Chile.",
     "visitorStats": "Globale Besucherstatistiken",
     "rights": "Alle Rechte vorbehalten"
   }

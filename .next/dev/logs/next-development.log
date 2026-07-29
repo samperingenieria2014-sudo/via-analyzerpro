@@ -1,13 +1,1 @@
-[00:00:02.500] Server  LOG      ✓ Ready in 1716ms
-[00:00:10.610] Server  LOG      ○ Compiling / ...
-[00:00:13.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.631] Browser WARN    Image with src "/images/logo/Logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.200] Browser WARN    Image with src "/images/Casestudies/peru-v85-case.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.767] Browser WARN    Image with src "/images/cases/Ovalo Las Tortugas.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:22.199] Browser WARN    Image with src "/images/logo/Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:23.089] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/logo/Logo.png" "received" null
-[00:00:23.123] Server  ERROR   C:\Users\acer\Downloads\viaanalyzer-pro\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:23.130] Server  ERROR   C:\Users\acer\Downloads\viaanalyzer-pro\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:23.133] Server  ERROR   C:\Users\acer\Downloads\viaanalyzer-pro\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:23.135] Server  ERROR   C:\Users\acer\Downloads\viaanalyzer-pro\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:23.137] Server  ERROR   Error: The requested resource isn't a valid image.
+[00:00:02.650] Server  LOG      ✓ Ready in 1738ms

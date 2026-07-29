@@ -1,14 +1,38 @@
 {
   "Header": {
+    "home": "Accueil",
     "services": "Services",
     "methodology": "Méthodologie",
-    "caseStudies": "Études de cas",
+    "caseStudies": "Études de Cas",
     "pricing": "Tarifs",
-    "contact": "Contact"
+    "contact": "Contact",
+    "demo": "Demander une Démo"
+  },
+  "Features": {
+    "mainTitle": "Outils Avancés pour la Sécurité Routière et l'Analyse Géométrique",
+    "mainParagraph": "Automatisation technique dédiée aux audits de sécurité routière, à la validation géométrique, à la signalisation et à l'évaluation opérationnelle.",
+    "feature1_title": "Audit de Sécurité Routière",
+    "feature1_desc": "Nous identifions les risques cachés sur les routes, carrefours gyratoires et intersections grâce à des audits basés sur la vitesse pratiquée V85 et la géométrie.",
+    "feature2_title": "Analyse Géométrique Automatisée",
+    "feature2_desc": "Validation intelligente des rayons, dévers, surlargeurs, raccordements progressifs et distances de visibilité selon les normes officielles.",
+    "feature3_title": "Signalisation Routière Intelligente",
+    "feature3_desc": "Détection d'incohérences critiques dans la signalisation verticale et horizontale, en vérifiant l'emplacement, la lisibilité et la conformité.",
+    "feature4_title": "Compatibilité Multi-Pays",
+    "feature4_desc": "Compatible avec les normes officielles de Colombie (INVÍAS), du Pérou (MTC) et du Chili (MOP), permettant des contrôles adaptés à chaque réglementation.",
+    "feature5_title": "Analyse des Giratoires et Intersections",
+    "feature5_desc": "Évaluation de la déflexion, de la vitesse d'entrée, des balayages véhicules et de la sécurité opérationnelle dans les carrefours urbains et ruraux.",
+    "feature6_title": "Conformité Normative Accélérée",
+    "feature6_desc": "Réduction significative des délais de vérification technique grâce à l'analyse automatisée du tracé, de la vitesse V85 et de la signalisation.",
+    "brochure1Tag": "Brochure Spécialisée",
+    "brochure1Title": "Signalisation et Sécurité Routière",
+    "brochure1Desc": "Méthodologie V85, processus d'audit, formules de service et cas réels — 5 pages.",
+    "brochure2Tag": "Brochure Corporative",
+    "brochure2Title": "Infrastructures Routières Intelligentes",
+    "brochure2Desc": "Portfolio complet en conception géométrique, automatisation technique et ingénierie routière — 13 pages."
   },
   "Footer": {
-    "description": "Audit routier intelligent basé sur l'analyse géométrique, la vitesse opérationnelle V85 et les réglementations officielles de la Colombie, du Pérou et du Chili.",
-    "visitorStats": "Statistiques globales des visiteurs",
+    "description": "Audit routier intelligent basé sur l'analyse géométrique, la vitesse V85 et les normes officielles de Colombie, du Pérou et du Chili.",
+    "visitorStats": "Statistiques Globales des Visiteurs",
     "rights": "Tous droits réservés"
   }
 }

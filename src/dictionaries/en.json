@@ -1,13 +1,37 @@
 {
   "Header": {
+    "home": "Home",
     "services": "Services",
     "methodology": "Methodology",
     "caseStudies": "Case Studies",
     "pricing": "Pricing",
-    "contact": "Contact"
+    "contact": "Contact",
+    "demo": "Request Demo"
+  },
+  "Features": {
+    "mainTitle": "Advanced Tools for Road Safety and Geometric Analysis",
+    "mainParagraph": "Technical automation focused on road safety audits, geometric validation, road signage, and operational assessment under Latin American standards.",
+    "feature1_title": "Road Safety Audit",
+    "feature1_desc": "We identify hidden risks in highways, roundabouts, and intersections using advanced technical audits based on operating speed, sight distance, geometry, and regulatory compliance.",
+    "feature2_title": "Automated Geometric Analysis",
+    "feature2_desc": "Smart validation of radii, superelevation, widening, crown slopes, spirals, plan-profile coordination, and sight distances under official road regulations.",
+    "feature3_title": "Smart Road Signage",
+    "feature3_desc": "We detect critical inconsistencies in vertical and horizontal signage, validating placement, regulatory coherence, visibility, and real necessity based on operational behavior.",
+    "feature4_title": "Multi-Country Compatibility",
+    "feature4_desc": "Compatible with official standards from Colombia (INVÍAS), Peru (MTC), and Chile (MOP), enabling road audits tailored to each country's technical guidelines.",
+    "feature5_title": "Roundabout and Junction Analysis",
+    "feature5_desc": "We evaluate deflection, entry speed, critical vehicle swept paths, potential conflicts, and operational safety in urban and rural roundabouts.",
+    "feature6_title": "Faster Regulatory Compliance",
+    "feature6_desc": "We significantly reduce technical review times through automated analysis of road geometry, V85 speeds, signage, safety compliance, and critical findings.",
+    "brochure1Tag": "Specialized Brochure",
+    "brochure1Title": "Road Signage and Safety Audit",
+    "brochure1Desc": "V85 methodology, high-risk audit workflow, service packages, and real-world case studies — 5 pages.",
+    "brochure2Tag": "Corporate Brochure",
+    "brochure2Title": "Smart Road Infrastructure",
+    "brochure2Desc": "Full portfolio covering geometric design, technical automation, and engineering services — 13 pages."
   },
   "Footer": {
-    "description": "Intelligent road auditing based on geometric analysis, V85 operating speed, and official regulations of Colombia, Peru, and Chile.",
+    "description": "Smart road auditing based on geometric analysis, V85 operating speed, and official technical standards from Colombia, Peru, and Chile.",
     "visitorStats": "Global Visitor Statistics",
     "rights": "All rights reserved"
   }

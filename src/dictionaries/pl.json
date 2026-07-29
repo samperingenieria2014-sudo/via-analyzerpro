@@ -1,14 +1,38 @@
 {
   "Header": {
+    "home": "Strona Główna",
     "services": "Usługi",
     "methodology": "Metodologia",
-    "caseStudies": "Studia przypadków",
+    "caseStudies": "Studia Przypadków",
     "pricing": "Cennik",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "demo": "Zamów Demo"
+  },
+  "Features": {
+    "mainTitle": "Zaawansowane Narzędzia do Audytu Bezpieczeństwa Ruchu i Analizy Geometrycznej",
+    "mainParagraph": "Automatyzacja inżynieryjna dedykowana audytom drogowym, weryfikacji geometrii, oznakowaniu i ocenie operacyjnej według norm technicznych.",
+    "feature1_title": "Audyt Bezpieczeństwa Ruchu Drogowego",
+    "feature1_desc": "Identyfikujemy ukryte zagrożenia na drogach, rondach i skrzyżowaniach za pomocą zaawansowanych audytów opartych na prędkości miarodajnej V85, widoczności i geometrii.",
+    "feature2_title": "Automatyczna Analiza Geometryczna",
+    "feature2_desc": "Inteligentna weryfikacja promieni łuków, poszerzeń, spadków poprzecznych, krzywych przejściowych i widoczności zgodnie z oficjalnymi normami drogowymi.",
+    "feature3_title": "Inteligentne Oznakowanie Drogowe",
+    "feature3_desc": "Wykrywamy krytyczne niespójności w oznakowaniu pionowym i poziomym, sprawdzając lokalizację, widoczność i zgodność z przepisami technologicznymi.",
+    "feature4_title": "Zgodność z Normami Wielu Krajów",
+    "feature4_desc": "Zgodność z oficjalnymi standardami Kolumbii (INVÍAS), Peru (MTC) oraz Chile (MOP), co pozwala na precyzyjne dopasowanie wyników audytu.",
+    "feature5_title": "Analiza Rond i Skrzyżowań Obydwóch Typów",
+    "feature5_desc": "Oceniamy odchylenie toru jazdy, prędkość wjazdową, krytyczne trajektorie pojazdów i punkty kolizyjne na rondach miejskich i pozamiejskich.",
+    "feature6_title": "Szybsza Weryfikacja Zgodności z Normami",
+    "feature6_desc": "Znacząco skracamy czas przeglądu technicznego dzięki automatycznej analizie geometrii dróg, V85, oznakowania oraz identyfikacji krytycznych usterek.",
+    "brochure1Tag": "Broszura Specjalistyczna",
+    "brochure1Title": "Oznakowanie i Bezpieczeństwo Ruchu",
+    "brochure1Desc": "Metodologia V85, audyt obszarów wysokiego ryzyka, pakiety usług i przykłady wdrożeń — 5 stron.",
+    "brochure2Tag": "Broszura Firmowa",
+    "brochure2Title": "Inteligentna Infrastruktura Drogowa",
+    "brochure2Desc": "Pełne portfolio projektowe, automatyzacja inżynieryjna i usługi doradcze — 13 stron."
   },
   "Footer": {
-    "description": "Inteligentny audyt drogowy oparty na analizie geometrycznej, prędkości miarodajnej V85 oraz oficjalnych przepisach Kolumbii, Peru i Chile.",
-    "visitorStats": "Globalne statystyki odwiedzin",
+    "description": "Inteligentny audyt drogowy oparty na analizie geometrycznej, prędkości operacyjnej V85 i normach technicznych Kolumbii, Peru i Chile.",
+    "visitorStats": "Globalne Statystyki Odwiedzin",
     "rights": "Wszelkie prawa zastrzeżone"
   }
 }

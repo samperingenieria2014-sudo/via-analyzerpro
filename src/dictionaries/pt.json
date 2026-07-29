@@ -1,13 +1,37 @@
 {
   "Header": {
+    "home": "Início",
     "services": "Serviços",
     "methodology": "Metodologia",
     "caseStudies": "Casos Reais",
     "pricing": "Preços",
-    "contact": "Contato"
+    "contact": "Contato",
+    "demo": "Solicitar Demonstração"
+  },
+  "Features": {
+    "mainTitle": "Ferramentas Avançadas para Segurança Viária e Análise Geométrica",
+    "mainParagraph": "Automação técnica voltada para auditorias viárias, validação geométrica, sinalização e avaliação operacional sob normas da América Latina.",
+    "feature1_title": "Auditoria de Segurança Viária",
+    "feature1_desc": "Identificamos riscos ocultos em rodovias, rotatórias e interseções por meio de auditorias técnicas avançadas baseadas em velocidade operacional, visibilidade, geometria e conformidade normativa.",
+    "feature2_title": "Análise Geométrica Automatizada",
+    "feature2_desc": "Validação inteligente de raios, superelevações, superlarguras, abaulamentos, espirais, coordenação planta-perfil e distâncias de visibilidade sob regulamentação técnica oficial.",
+    "feature3_title": "Sinalização Viária Inteligente",
+    "feature3_desc": "Detectamos inconsistências críticas em sinalização vertical e horizontal, validando localização, coerência normativa, visibilidade e necessidade real com base no comportamento operacional.",
+    "feature4_title": "Compatibilidade Multipaís",
+    "feature4_desc": "Compatível com as normas oficiais da Colômbia (INVÍAS), Peru (MTC) e Chile (MOP), permitindo auditorias e validações adaptadas a cada padrão técnico.",
+    "feature5_title": "Análise de Rotatórias e Interseções",
+    "feature5_desc": "Avaliamos deflexão, velocidade de entrada, trajetórias críticas de varredura, conflitos veiculares e segurança operacional em rotatórias urbanas e rurais.",
+    "feature6_title": "Conformidade Normativa em Menor Tempo",
+    "feature6_desc": "Reduzimos significativamente os prazos de revisão técnica mediante análise automatizada de geometria viária, V85, sinalização e apontamentos críticos.",
+    "brochure1Tag": "Brochure Especializado",
+    "brochure1Title": "Sinalização e Segurança Viária",
+    "brochure1Desc": "Metodologia V85, auditoria de alto risco, pacotes de serviço e casos reais — 5 páginas.",
+    "brochure2Tag": "Brochure Corporativo",
+    "brochure2Title": "Infraestrutura Viária Inteligente",
+    "brochure2Desc": "Portfólio de projeto geométrico, automação técnica e serviços gerais de engenharia — 13 páginas."
   },
   "Footer": {
-    "description": "Auditoria viária inteligente baseada em análise geométrica, velocidade operacional V85 e normas oficiais da Colômbia, Peru e Chile.",
+    "description": "Auditoria viária inteligente baseada em análise geométrica, velocidade operacional V85 e normas técnicas oficiais da Colômbia, Peru e Chile.",
     "visitorStats": "Estatísticas Globais de Visitantes",
     "rights": "Todos os direitos reservados"
   }
