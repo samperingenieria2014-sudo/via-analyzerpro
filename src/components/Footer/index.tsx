@@ -67,10 +67,10 @@ const Footer = () => {
                 <ul>
                   {[
                     { label: "Servicios", href: "#features" },
-{ label: "Metodolog\u00eda", href: "#metodologia" },
-{ label: "Casos Reales", href: "#case-studies" },
-{ label: "Precios", href: "#pricing" },
-{ label: "Contacto", href: "#contact" },
+                    { label: "Metodología", href: "#metodologia" },
+                    { label: "Casos Reales", href: "#case-studies" },
+                    { label: "Precios", href: "#pricing" },
+                    { label: "Contacto", href: "#contact" },
                   ].map((item) => (
                     <li key={item.label}>
                       <a
@@ -172,6 +172,27 @@ const Footer = () => {
 
           {/* ── Barra inferior ── */}
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]" />
+          
+          {/* ── Contador de Visitantes (Flag Counter O2xN) ── */}
+          <div className="mt-6 flex flex-col items-center justify-center text-center">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-body-color dark:text-body-color-dark">
+              Estadísticas Globales de Visitantes
+            </p>
+            <a 
+              href="https://info.flagcounter.com/O2xN" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block transition-opacity hover:opacity-90"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img 
+                src="https://s05.flagcounter.com/count2/O2xN/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" 
+                alt="Flag Counter" 
+                className="rounded border border-stroke dark:border-dark-3"
+              />
+            </a>
+          </div>
+
           <div className="flex flex-col items-center justify-between py-8 sm:flex-row">
             <p className="text-sm text-body-color dark:text-body-color-dark">
               © {new Date().getFullYear()} Samper Ingeniería & Topografía — Todos los derechos reservados
@@ -182,7 +203,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Decoración SVG original (se mantiene) */}
+        {/* Decoración SVG original */}
         <div className="absolute right-0 top-14 z-[-1]">
           <svg width="55" height="99" viewBox="0 0 55 99" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1" />
