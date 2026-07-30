@@ -168,5 +168,92 @@
     "case3M4Sub": "Proste Stagnowane",
     "case3ConcTitle": "Wniosek techniczny",
     "case3ConcDesc": "Czysto normatywne oznakowanie było niewystarczające w obliczu złożoności terenu. Dzięki logice operacyjnej pogrupowano sekwencje, priorytetyzując zakazy wyprzedzania w martwych punktach profilu i wzmacniając je optymalnym prowadzeniem optycznym."
+  },
+  "Pricing": {
+    "badge": "Pakiety Usług",
+    "title": "Rozwiązania dla każdych potrzeb drogowych",
+    "subtitle": "Dwie wyspecjalizowane linie usług — projektowanie oznakowania ze stałą ceną za kilometr oraz kompleksowy audyt techniczny dróg.",
+    "signageSectionTitle": "🚦 Projektowanie Oznakowania Drogowego",
+    "auditSectionTitle": "🔍 Audyt Bezpieczeństwa Ruchu Drogowego",
+    "priceUnitBadge": "Cena za kilometr bieżący",
+    "popularBadge": "Najpopularniejszy",
+    "btnRequest": "Zamów",
+    "signageNote": "* Projekty >15 km podlegają indywidualnej wycenie. Ceny nie zawierają podatku VAT.",
+    "auditNote": "* Analiza rond i skrzyżowań o ruchu okrężnym wyceniana jest indywidualnie za jednostkę. Ceny nie zawierają podatku VAT.",
+    "s1Title": "Podstawowy",
+    "s1Desc": "Inwentaryzacja i georeferencja znaków pionowych.",
+    "s1Includes": [
+      "Pełna inwentaryzacja znaków pionowych",
+      "Kategoria i kod MSV 2024 dla każdego znaku",
+      "Lokalizacja kilometrowa (pikietaż)",
+      "Strona drogi (prawa / lewa)",
+      "Współrzędne MAGNA-SIRGAS",
+      "Cyfrowy plik dostawy"
+    ],
+    "s1NotIncludes": [
+      "Plany na ortofotomapie",
+      "Raport techniczny",
+      "Analiza V85 / Audyt HV",
+      "Oznakowanie poziome"
+    ],
+    "s2Title": "Standardowy",
+    "s2Desc": "Pełna inwentaryzacja z planami i raportem technicznym.",
+    "s2Includes": [
+      "Wszystko z pakietu Podstawowego",
+      "Plany na ortofotomapie",
+      "Raport techniczny z uzasadnieniem normatywnym",
+      "Współrzędne MAGNA-SIRGAS",
+      "Cyfrowy plik dostawy"
+    ],
+    "s2NotIncludes": [
+      "Analiza V85 / Audyt HV",
+      "Oznakowanie poziome"
+    ],
+    "s3Title": "Kompleksowy",
+    "s3Desc": "Kompleksowa usługa z analizą operacyjną i oznakowaniem.",
+    "s3Includes": [
+      "Wszystko z pakietu Standardowego",
+      "Analiza V85 / Audyt HV",
+      "Oznakowanie poziome",
+      "Znaki korygujące na podstawie ustaleń",
+      "Raport wykonawczy dla nadzoru autorskiego"
+    ],
+    "s3NotIncludes": [],
+    "a1Title": "Podstawowy",
+    "a1Desc": "Podstawowa geometria i widoczność.",
+    "a1Includes": [
+      "Analiza geometryczna (promienie, przewyższenia, poszerzenia)",
+      "Widoczność na zatrzymanie i wyprzedzanie (DVP/DVA)",
+      "Podstawowa weryfikacja normatywna",
+      "Raport z ustaleń"
+    ],
+    "a1NotIncludes": [
+      "Prędkość miarodajna V85",
+      "Spójność planu i profilu",
+      "Audyt HV",
+      "Oznakowanie korygujące"
+    ],
+    "a2Title": "Standardowy",
+    "a2Desc": "Geometria + analiza operacyjna V85.",
+    "a2Includes": [
+      "Wszystko z pakietu Podstawowego",
+      "Prędkość miarodajna V85 (Metoda Lamma)",
+      "Spójność planu i profilu",
+      "Raport techniczny z uzasadnieniem normatywnym"
+    ],
+    "a2NotIncludes": [
+      "Audyt HV",
+      "Znaki korygujące na podstawie ustaleń"
+    ],
+    "a3Title": "Premium",
+    "a3Desc": "Kompleksowy audyt z jednoczesną analizą widoczności H i V.",
+    "a3Includes": [
+      "Wszystko z pakietu Standardowego",
+      "Audyt HV (jednoczesna widoczność H i V)",
+      "Znaki korygujące na podstawie ustaleń",
+      "Raport wykonawczy + techniczny dla nadzoru",
+      "Rzeczywiste współrzędne we wszystkich plikach"
+    ],
+    "a3NotIncludes": []
   }
 }

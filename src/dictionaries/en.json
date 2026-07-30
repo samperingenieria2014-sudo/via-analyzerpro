@@ -170,5 +170,92 @@
     "case3M4Sub": "Tangents Analyzed",
     "case3ConcTitle": "Technical Conclusion",
     "case3ConcDesc": "Purely prescriptive signage fell short given the terrain's complexity. Operational logic was used to group curve sequences, prioritizing passing restrictions on blind crests and reinforcing with optimal optical delineators."
+  },
+  "Pricing": {
+    "badge": "Service Packages",
+    "title": "Solutions for Every Highway Need",
+    "subtitle": "Two specialized service lines — road signage design with fixed rates per kilometer and comprehensive technical road auditing.",
+    "signageSectionTitle": "🚦 Road Signage Design",
+    "auditSectionTitle": "🔍 Road Safety Audit",
+    "priceUnitBadge": "Price per linear kilometer",
+    "popularBadge": "Most popular",
+    "btnRequest": "Request",
+    "signageNote": "* Projects >15 km inquire for special rates. Prices do not include VAT.",
+    "auditNote": "* Roundabout and interchange analysis quoted per unit. Prices do not include VAT.",
+    "s1Title": "Basic",
+    "s1Desc": "Inventory and georeferencing of vertical signs.",
+    "s1Includes": [
+      "Complete vertical sign inventory",
+      "Category and MSV 2024 code per sign",
+      "Installation stationing/chainage",
+      "Side (right / left)",
+      "MAGNA-SIRGAS coordinates",
+      "Digital delivery package"
+    ],
+    "s1NotIncludes": [
+      "Orthophoto-overlay plans",
+      "Technical report",
+      "V85 Analysis / Alignment Audit",
+      "Pavement markings"
+    ],
+    "s2Title": "Standard",
+    "s2Desc": "Full inventory with CAD plans and technical report.",
+    "s2Includes": [
+      "Everything in Basic plan",
+      "Orthophoto-overlay plans",
+      "Technical report with regulatory justification",
+      "MAGNA-SIRGAS coordinates",
+      "Digital delivery package"
+    ],
+    "s2NotIncludes": [
+      "V85 Analysis / Alignment Audit",
+      "Pavement markings"
+    ],
+    "s3Title": "Complete",
+    "s3Desc": "End-to-end service with operational analysis and pavement marking.",
+    "s3Includes": [
+      "Everything in Standard plan",
+      "V85 Analysis / Alignment Audit",
+      "Pavement markings",
+      "Corrective signs based on audit findings",
+      "Executive report for supervision/audit"
+    ],
+    "s3NotIncludes": [],
+    "a1Title": "Basic",
+    "a1Desc": "Essential geometry and sight distances.",
+    "a1Includes": [
+      "Geometric analysis (radii, superelevation, widening)",
+      "Stopping and passing sight distances (SSD/PSD)",
+      "Basic regulatory compliance check",
+      "Findings report"
+    ],
+    "a1NotIncludes": [
+      "V85 Operational speed",
+      "Plan-profile consistency",
+      "HV Alignment Audit",
+      "Corrective signage"
+    ],
+    "a2Title": "Standard",
+    "a2Desc": "Geometry + V85 operational speed analysis.",
+    "a2Includes": [
+      "Everything in Basic plan",
+      "V85 Operational speed (Lamm Method)",
+      "Plan-profile consistency",
+      "Technical report with regulatory justification"
+    ],
+    "a2NotIncludes": [
+      "HV Alignment Audit",
+      "Corrective signage based on findings"
+    ],
+    "a3Title": "Premium",
+    "a3Desc": "Comprehensive audit with simultaneous H & V sight distance.",
+    "a3Includes": [
+      "Everything in Standard plan",
+      "HV Audit (simultaneous H & V visibility)",
+      "Corrective signs based on audit findings",
+      "Executive + technical report for supervision",
+      "Real-world coordinates across all deliverables"
+    ],
+    "a3NotIncludes": []
   }
 }

@@ -168,5 +168,92 @@
     "case3M4Sub": "Rettifili Analizzati",
     "case3ConcTitle": "Conclusione tecnica",
     "case3ConcDesc": "La segnaletica puramente prescrittiva si è rivelata insufficiente. Con la logica operativa sono state raggruppate le sequenze di curve, dando priorità ai divieti di sorpasso nei dossi ciechi e rafforzando il guida ottico."
+  },
+  "Pricing": {
+    "badge": "Pacchetti di Servizi",
+    "title": "Soluzioni per ogni esigenza stradale",
+    "subtitle": "Due linee di servizio specializzate — progettazione della segnaletica a prezzi fissi per chilometro e audit tecnico stradale completo.",
+    "signageSectionTitle": "🚦 Progettazione Segnaletica Stradale",
+    "auditSectionTitle": "🔍 Audit di Sicurezza Stradale",
+    "priceUnitBadge": "Prezzo per chilometro lineare",
+    "popularBadge": "Il più richiesto",
+    "btnRequest": "Richiedi",
+    "signageNote": "* Progetti >15 km richiedere tariffe speciali. Prezzi IVA esclusa.",
+    "auditNote": "* L'analisi di rotatorie e svincoli è quotata per unità. Prezzi IVA esclusa.",
+    "s1Title": "Base",
+    "s1Desc": "Inventario e georeferenziazione dei segnali verticali.",
+    "s1Includes": [
+      "Inventario completo dei segnali verticali",
+      "Categoria e codice MSV 2024 per segnale",
+      "Progressiva chilometrica",
+      "Lato (destro / sinistro)",
+      "Coordinate MAGNA-SIRGAS",
+      "File digitale di consegna"
+    ],
+    "s1NotIncludes": [
+      "Piani su ortofoto",
+      "Relazione tecnica",
+      "Analisi V85 / Audit HV",
+      "Segnaletica orizzontale"
+    ],
+    "s2Title": "Standard",
+    "s2Desc": "Inventario completo con planimetrie CAD e relazione tecnica.",
+    "s2Includes": [
+      "Tutto il piano Base",
+      "Piani su ortofoto",
+      "Relazione tecnica con giustificazione normativa",
+      "Coordinate MAGNA-SIRGAS",
+      "File digitale di consegna"
+    ],
+    "s2NotIncludes": [
+      "Analisi V85 / Audit HV",
+      "Segnaletica orizzontale"
+    ],
+    "s3Title": "Completo",
+    "s3Desc": "Servizio integrale con analisi operativa e segnaletica orizzontale.",
+    "s3Includes": [
+      "Tutto il piano Standard",
+      "Analisi V85 / Audit HV",
+      "Segnaletica orizzontale",
+      "Segnali correttivi basati sui rilievi",
+      "Report esecutivo per direzione lavori"
+    ],
+    "s3NotIncludes": [],
+    "a1Title": "Base",
+    "a1Desc": "Geometria essenziale e distanze di visuale.",
+    "a1Includes": [
+      "Analisi geometrica (raggi, pendenze, allargamenti)",
+      "Distanze di visuale di arresto e sorpasso",
+      "Verifica normativa di base",
+      "Relazione sui rilievi"
+    ],
+    "a1NotIncludes": [
+      "Velocità operativa V85",
+      "Coerenza plano-altimetrica",
+      "Audit HV",
+      "Segnali correttivi"
+    ],
+    "a2Title": "Standard",
+    "a2Desc": "Geometria + analisi della velocità operativa V85.",
+    "a2Includes": [
+      "Tutto il piano Base",
+      "Velocità operativa V85 (Metodo Lamm)",
+      "Coerenza plano-altimetrica",
+      "Relazione tecnica con giustificazione normativa"
+    ],
+    "a2NotIncludes": [
+      "Audit HV",
+      "Segnali correttivi basati sui rilievi"
+    ],
+    "a3Title": "Premium",
+    "a3Desc": "Audit completo con visuale simultanea H e V.",
+    "a3Includes": [
+      "Tutto il piano Standard",
+      "Audit HV (visibilità H e V simultanea)",
+      "Segnali correttivi basati sui rilievi",
+      "Report esecutivo + tecnico per direzione lavori",
+      "Coordinate reali in tutti i documenti"
+    ],
+    "a3NotIncludes": []
   }
 }

@@ -168,5 +168,179 @@
     "case3M4Sub": "Tangentes Analisadas",
     "case3ConcTitle": "Conclusão técnica",
     "case3ConcDesc": "A sinalização puramente normativa mostrou-se insuficiente diante da complexidade do terreno. Pela lógica operacional, agruparam-se as sequências de curvas, priorizando proibições de ultrapassagem em lombadas cegas e reforçando a sinalização óptica."
+  },
+  "Pricing": {
+    "badge": "Packs de Services",
+    "title": "Solutions pour chaque besoin routier",
+    "subtitle": "Deux lignes de services spécialisées — conception de signalisation à prix fixe par kilomètre et audit technique routier complet.",
+    "signageSectionTitle": "🚦 Conception de Signalisation Routière",
+    "auditSectionTitle": "🔍 Audit de Sécurité Routière",
+    "priceUnitBadge": "Prix par kilomètre linéaire",
+    "popularBadge": "Le plus populaire",
+    "btnRequest": "Demander",
+    "signageNote": "* Projets >15 km consulter pour tarifs spéciaux. Prix hors TVA.",
+    "auditNote": "* L'analyse des giratoires est cotée par unité. Prix hors TVA.",
+    "s1Title": "Basique",
+    "s1Desc": "Inventaire et géoréférencement des panneaux verticaux.",
+    "s1Includes": [
+      "Inventaire complet des panneaux verticaux",
+      "Catégorie et code MSV 2024 par panneau",
+      "Point kilométrique / Chaînage",
+      "Côté (droit / gauche)",
+      "Coordonnées MAGNA-SIRGAS",
+      "Fichier numérique de livraison"
+    ],
+    "s1NotIncludes": [
+      "Plans sur orthophoto",
+      "Rapport technique",
+      "Analyse V85 / Audit HV",
+      "Marquage horizontal"
+    ],
+    "s2Title": "Standard",
+    "s2Desc": "Inventaire complet avec plans CAD et rapport technique.",
+    "s2Includes": [
+      "Tout ce qui est dans le plan Basique",
+      "Plans sur orthophoto",
+      "Rapport technique avec justification normative",
+      "Coordonnées MAGNA-SIRGAS",
+      "Fichier numérique de livraison"
+    ],
+    "s2NotIncludes": [
+      "Analyse V85 / Audit HV",
+      "Marquage horizontal"
+    ],
+    "s3Title": "Complet",
+    "s3Desc": "Service intégral avec analyse opérationnelle et marquage.",
+    "s3Includes": [
+      "Tout ce qui est dans le plan Standard",
+      "Analyse V85 / Audit HV",
+      "Marquage horizontal",
+      "Panneaux correctifs selon constatations",
+      "Rapport exécutif pour le contrôle de travaux"
+    ],
+    "s3NotIncludes": [],
+    "a1Title": "Basique",
+    "a1Desc": "Géométrie essentielle et distances de visibilité.",
+    "a1Includes": [
+      "Analyse géométrique (rayons, dévers, surlargeurs)",
+      "Distances de visibilité d'arrêt et de dépassement",
+      "Vérification normative de base",
+      "Rapport de constatations"
+    ],
+    "a1NotIncludes": [
+      "Vitesse opérationnelle V85",
+      "Cohérence tracé en plan / profil en long",
+      "Audit HV",
+      "Panneaux correctifs"
+    ],
+    "a2Title": "Standard",
+    "a2Desc": "Géométrie + analyse de vitesse opérationnelle V85.",
+    "a2Includes": [
+      "Tout ce qui est dans le plan Basique",
+      "Vitesse opérationnelle V85 (Méthode Lamm)",
+      "Cohérence tracé en plan / profil en long",
+      "Rapport technique avec justification normative"
+    ],
+    "a2NotIncludes": [
+      "Audit HV",
+      "Panneaux correctifs selon constatations"
+    ],
+    "a3Title": "Premium",
+    "a3Desc": "Audit complet avec visibilité simultanée H et V.",
+    "a3Includes": [
+      "Tout ce qui est dans le plan Standard",
+      "Audit HV (visibilité H et V simultanée)",
+      "Panneaux correctifs selon constatations",
+      "Rapport exécutif + technique pour contrôle",
+      "Coordonnées réelles sur tous les livrables"
+    ],
+    "a3NotIncludes": []
+  },
+  "Pricing": {
+    "badge": "Pacotes de Serviços",
+    "title": "Soluções para cada necessidade viária",
+    "subtitle": "Duas linhas de serviços especializadas — projeto de sinalização com preços fixos por quilômetro e auditoria técnica viária integral.",
+    "signageSectionTitle": "🚦 Projeto de Sinalização Viária",
+    "auditSectionTitle": "🔍 Auditoria de Segurança Viária",
+    "priceUnitBadge": "Preço por quilômetro linear",
+    "popularBadge": "Mais popular",
+    "btnRequest": "Solicitar",
+    "signageNote": "* Projetos >15 km consultar tarifas especiais. Preços não incluem impostos.",
+    "auditNote": "* Análise de rotatórias é cotada por unidade. Preços não incluem impostos.",
+    "s1Title": "Básico",
+    "s1Desc": "Inventário e georreferenciamento de sinais verticais.",
+    "s1Includes": [
+      "Inventário completo de sinais verticais",
+      "Categoria e código MSV 2024 por sinal",
+      "Estaqueamento / Quilometragem",
+      "Lado (direito / esquerdo)",
+      "Coordenadas MAGNA-SIRGAS",
+      "Arquivo digital de entrega"
+    ],
+    "s1NotIncludes": [
+      "Pranchas sobre ortofoto",
+      "Relatório técnico",
+      "Análise V85 / Auditoria HV",
+      "Sinalização horizontal"
+    ],
+    "s2Title": "Padrão",
+    "s2Desc": "Inventário completo com pranchas CAD e relatório técnico.",
+    "s2Includes": [
+      "Tudo do plano Básico",
+      "Pranchas sobre ortofoto",
+      "Relatório técnico com justificativa normativa",
+      "Coordenadas MAGNA-SIRGAS",
+      "Arquivo digital de entrega"
+    ],
+    "s2NotIncludes": [
+      "Análise V85 / Auditoria HV",
+      "Sinalização horizontal"
+    ],
+    "s3Title": "Completo",
+    "s3Desc": "Serviço integral com análise operacional e sinalização horizontal.",
+    "s3Includes": [
+      "Tudo do plano Padrão",
+      "Análise V85 / Auditoria HV",
+      "Sinalização horizontal",
+      "Sinais corretivos por achados",
+      "Relatório executivo para fiscalização"
+    ],
+    "s3NotIncludes": [],
+    "a1Title": "Básico",
+    "a1Desc": "Geometria essencial e distâncias de visibilidade.",
+    "a1Includes": [
+      "Análise geométrica (raios, superelevação, superlargura)",
+      "Distâncias de visibilidade de parada e ultrapassagem",
+      "Verificação normativa básica",
+      "Relatório de achados"
+    ],
+    "a1NotIncludes": [
+      "Velocidade operacional V85",
+      "Consistência planta-perfil",
+      "Auditoria HV",
+      "Sinais corretivos"
+    ],
+    "a2Title": "Padrão",
+    "a2Desc": "Geometria + análise de velocidade operacional V85.",
+    "a2Includes": [
+      "Tudo do plano Básico",
+      "Velocidade operacional V85 (Método Lamm)",
+      "Consistência planta-perfil",
+      "Relatório técnico com justificativa normativa"
+    ],
+    "a2NotIncludes": [
+      "Auditoria HV",
+      "Sinais corretivos por achados"
+    ],
+    "a3Title": "Premium",
+    "a3Desc": "Auditoria integral com visibilidade simultânea H e V.",
+    "a3Includes": [
+      "Tudo do plano Padrão",
+      "Auditoria HV (visibilidade H e V simultânea)",
+      "Sinais corretivos por achados",
+      "Relatório executivo + técnico para fiscalização",
+      "Coordenadas reais em todos os entregáveis"
+    ],
+    "a3NotIncludes": []
   }
 }

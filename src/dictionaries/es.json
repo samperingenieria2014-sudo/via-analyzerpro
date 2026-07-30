@@ -168,5 +168,92 @@
     "case3M4Sub": "Líneas de Tangente",
     "case3ConcTitle": "Conclusión técnica",
     "case3ConcDesc": "La señalización puramente normativa se quedaba corta ante la complejidad del terreno. Mediante lógica operacional se agruparon secuencias, priorizando restricciones de adelantamiento en perfiles ciegos y reforzando con delineadores óptimos."
+  },
+  "Pricing": {
+    "badge": "Paquetes de Servicios",
+    "title": "Soluciones para cada necesidad vial",
+    "subtitle": "Dos líneas de servicio especializadas — diseño de señalización con precios fijos por kilómetro y auditoría vial técnica integral.",
+    "signageSectionTitle": "🚦 Diseño de Señalización Vial",
+    "auditSectionTitle": "🔍 Auditoría Vial",
+    "priceUnitBadge": "Precio por kilómetro lineal",
+    "popularBadge": "Más popular",
+    "btnRequest": "Solicitar",
+    "signageNote": "* Proyectos >15 km consultar tarifas especiales. Precios no incluyen IVA.",
+    "auditNote": "* Análisis de glorietas y óvalos se cotiza por unidad. Precios no incluyen IVA.",
+    "s1Title": "Básico",
+    "s1Desc": "Inventario y georeferenciación de señales verticales.",
+    "s1Includes": [
+      "Inventario completo de señales verticales",
+      "Categoría y código MSV 2024 por señal",
+      "Abscisa de instalación",
+      "Costado (derecho / izquierdo)",
+      "Coordenadas MAGNA-SIRGAS",
+      "Archivo digital de entrega"
+    ],
+    "s1NotIncludes": [
+      "Planos sobre ortofoto",
+      "Informe técnico",
+      "Análisis V85 / Auditoría HV",
+      "Demarcación horizontal"
+    ],
+    "s2Title": "Estándar",
+    "s2Desc": "Inventario completo con planos e informe técnico.",
+    "s2Includes": [
+      "Todo lo del plan Básico",
+      "Planos sobre ortofoto",
+      "Informe técnico con justificación normativa",
+      "Coordenadas MAGNA-SIRGAS",
+      "Archivo digital de entrega"
+    ],
+    "s2NotIncludes": [
+      "Análisis V85 / Auditoría HV",
+      "Demarcación horizontal"
+    ],
+    "s3Title": "Completo",
+    "s3Desc": "Servicio integral con análisis operacional y demarcación.",
+    "s3Includes": [
+      "Todo lo del plan Estándar",
+      "Análisis V85 / Auditoría HV",
+      "Demarcación horizontal",
+      "Señales correctivas por hallazgos",
+      "Informe ejecutivo para interventoría"
+    ],
+    "s3NotIncludes": [],
+    "a1Title": "Básico",
+    "a1Desc": "Geometría esencial y distancias de visibilidad.",
+    "a1Includes": [
+      "Análisis geométrico (radios, peraltes, sobreanchos)",
+      "Distancias de visibilidad DVP y DVA",
+      "Verificación normativa básica",
+      "Informe de hallazgos"
+    ],
+    "a1NotIncludes": [
+      "Velocidad operacional V85",
+      "Consistencia planta-perfil",
+      "Auditoría HV",
+      "Señales correctivas"
+    ],
+    "a2Title": "Estándar",
+    "a2Desc": "Geometría + análisis operacional V85.",
+    "a2Includes": [
+      "Todo lo del plan Básico",
+      "Velocidad operacional V85 (Método Lamm)",
+      "Consistencia planta-perfil",
+      "Informe técnico con justificación normativa"
+    ],
+    "a2NotIncludes": [
+      "Auditoría HV",
+      "Señales correctivas por hallazgos"
+    ],
+    "a3Title": "Premium",
+    "a3Desc": "Auditoría integral con visibilidad simultánea H y V.",
+    "a3Includes": [
+      "Todo lo del plan Estándar",
+      "Auditoría HV (visibilidad H y V simultánea)",
+      "Señales correctivas por hallazgos",
+      "Informe ejecutivo + técnico para interventoría",
+      "Coordenadas reales en todos los entregables"
+    ],
+    "a3NotIncludes": []
   }
 }

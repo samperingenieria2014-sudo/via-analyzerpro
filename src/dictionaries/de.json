@@ -168,5 +168,92 @@
     "case3M4Sub": "Tangentenabschnitte",
     "case3ConcTitle": "Technische Schlussfolgerung",
     "case3ConcDesc": "Rein regelbasierte Beschilderung reichte bei der Geländekomplexität nicht aus. Mittels betrieblicher Logik wurden Kurvenfolgen gruppiert, Überholverbote an kuppenblinden Stellen priorisiert und mit optischer Führung verstärkt."
+  },
+  "Pricing": {
+    "badge": "Dienstleistungspakete",
+    "title": "Lösungen für jeden Straßenbaubedarf",
+    "subtitle": "Zwei spezialisierte Dienstleistungslinien — Beschilderungsplanung mit Festpreisen pro Kilometer und umfassendes technisches Straßenaudit.",
+    "signageSectionTitle": "🚦 Beschilderungsplanung",
+    "auditSectionTitle": "🔍 Straßensicherheitsaudit",
+    "priceUnitBadge": "Preis pro Laufmeter/Kilometer",
+    "popularBadge": "Am beliebtesten",
+    "btnRequest": "Anfragen",
+    "signageNote": "* Projekte >15 km erfordern Sonderkonditionen. Preise zzgl. MwSt.",
+    "auditNote": "* Analyse von Kreisverkehren wird pro Einheit abgerechnet. Preise zzgl. MwSt.",
+    "s1Title": "Basis",
+    "s1Desc": "Inventarisierung und Georeferenzierung vertikaler Signale.",
+    "s1Includes": [
+      "Vollständiges Inventar vertikaler Signale",
+      "Kategorie und MSV 2024-Code pro Signal",
+      "Stationierung / Kilometrierung",
+      "Seite (rechts / links)",
+      "MAGNA-SIRGAS-Koordinaten",
+      "Digitale Übergabedatei"
+    ],
+    "s1NotIncludes": [
+      "Pläne auf Orthofoto",
+      "Technischer Bericht",
+      "V85-Analyse / HV-Audit",
+      "Fahrbahnmarkierung"
+    ],
+    "s2Title": "Standard",
+    "s2Desc": "Vollständiges Inventar mit CAD-Plänen und technischem Bericht.",
+    "s2Includes": [
+      "Alles aus dem Basis-Paket",
+      "Pläne auf Orthofoto",
+      "Technischer Bericht mit normativer Begründung",
+      "MAGNA-SIRGAS-Koordinaten",
+      "Digitale Übergabedatei"
+    ],
+    "s2NotIncludes": [
+      "V85-Analyse / HV-Audit",
+      "Fahrbahnmarkierung"
+    ],
+    "s3Title": "Komplett",
+    "s3Desc": "Ganzheitlicher Service mit betrieblicher Analyse und Markierung.",
+    "s3Includes": [
+      "Alles aus dem Standard-Paket",
+      "V85-Analyse / HV-Audit",
+      "Fahrbahnmarkierung",
+      "Korrektursignale basierend auf Befunden",
+      "Managerelement / Bericht für Bauüberwachung"
+    ],
+    "s3NotIncludes": [],
+    "a1Title": "Basis",
+    "a1Desc": "Wesentliche Geometrie und Sichtweiten.",
+    "a1Includes": [
+      "Geometrieanalyse (Radien, Querneigung, Verbreiterung)",
+      "Halte- und Überholsichtweiten",
+      "Grundlegende Normenprüfung",
+      "Ergebnisbericht"
+    ],
+    "a1NotIncludes": [
+      "V85 Betriebsgeschwindigkeit",
+      "Konsistenz Lage-/Höhenplan",
+      "HV-Audit",
+      "Korrektursignale"
+    ],
+    "a2Title": "Standard",
+    "a2Desc": "Geometrie + V85-Analyse der Betriebsgeschwindigkeit.",
+    "a2Includes": [
+      "Alles aus dem Basis-Paket",
+      "V85 Betriebsgeschwindigkeit (Lamm-Methode)",
+      "Konsistenz Lage-/Höhenplan",
+      "Technischer Bericht mit normativer Begründung"
+    ],
+    "a2NotIncludes": [
+      "HV-Audit",
+      "Korrektursignale basierend auf Befunden"
+    ],
+    "a3Title": "Premium",
+    "a3Desc": "Umfassendes Audit mit simultaner H- und V-Sichtweite.",
+    "a3Includes": [
+      "Alles aus dem Standard-Paket",
+      "HV-Audit (simultane H- und V-Sichtweite)",
+      "Korrektursignale basierend auf Befunden",
+      "Technischer Bericht für Bauüberwachung",
+      "Echte Koordinaten in allen Dokumenten"
+    ],
+    "a3NotIncludes": []
   }
 }

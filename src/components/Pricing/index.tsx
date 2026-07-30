@@ -1,5 +1,7 @@
 "use client";
+
 import Link from "next/link";
+import { useLanguage } from "@/context/LanguageContext";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -13,108 +15,18 @@ const xIcon = (
   </svg>
 );
 
-const senalizacionPlanes = [
-  {
-    nombre: "Básico",
-    cop: "$350.000",
-    usd: "~$85 USD",
-    descripcion: "Inventario y georeferenciación de señales verticales.",
-    incluye: [
-      "Inventario completo de señales verticales",
-      "Categoría y código MSV 2024 por señal",
-      "Abscisa de instalación",
-      "Costado (derecho / izquierdo)",
-      "Coordenadas MAGNA-SIRGAS",
-      "Archivo digital de entrega",
-    ],
-    noIncluye: ["Planos sobre ortofoto", "Informe técnico", "Análisis V85 / Auditoría HV", "Demarcación horizontal"],
-    destacado: false,
-    boton: "Solicitar",
-  },
-  {
-    nombre: "Estándar",
-    cop: "$500.000",
-    usd: "~$122 USD",
-    descripcion: "Inventario completo con planos y informe técnico.",
-    incluye: [
-      "Todo lo del plan Básico",
-      "Planos sobre ortofoto",
-      "Informe técnico con justificación normativa",
-      "Coordenadas MAGNA-SIRGAS",
-      "Archivo digital de entrega",
-    ],
-    noIncluye: ["Análisis V85 / Auditoría HV", "Demarcación horizontal"],
-    destacado: true,
-    boton: "Solicitar",
-  },
-  {
-    nombre: "Completo",
-    cop: "$700.000",
-    usd: "~$171 USD",
-    descripcion: "Servicio integral con análisis operacional y demarcación.",
-    incluye: [
-      "Todo lo del plan Estándar",
-      "Análisis V85 / Auditoría HV",
-      "Demarcación horizontal",
-      "Señales correctivas por hallazgos",
-      "Informe ejecutivo para interventoría",
-    ],
-    noIncluye: [],
-    destacado: false,
-    boton: "Solicitar",
-  },
-];
+interface PlanItem {
+  nombre: string;
+  cop: string;
+  usd: string;
+  descripcion: string;
+  incluye: string[];
+  noIncluye: string[];
+  destacado: boolean;
+  boton: string;
+}
 
-const auditoriaPlanes = [
-  {
-    nombre: "Básico",
-    cop: "$400.000",
-    usd: "~$98 USD",
-    descripcion: "Geometría esencial y distancias de visibilidad.",
-    incluye: [
-      "Análisis geométrico (radios, peraltes, sobreanchos)",
-      "Distancias de visibilidad DVP y DVA",
-      "Verificación normativa básica",
-      "Informe de hallazgos",
-    ],
-    noIncluye: ["Velocidad operacional V85", "Consistencia planta-perfil", "Auditoría HV", "Señales correctivas"],
-    destacado: false,
-    boton: "Solicitar",
-  },
-  {
-    nombre: "Estándar",
-    cop: "$600.000",
-    usd: "~$146 USD",
-    descripcion: "Geometría + análisis operacional V85.",
-    incluye: [
-      "Todo lo del plan Básico",
-      "Velocidad operacional V85 (Método Lamm)",
-      "Consistencia planta-perfil",
-      "Informe técnico con justificación normativa",
-    ],
-    noIncluye: ["Auditoría HV", "Señales correctivas por hallazgos"],
-    destacado: true,
-    boton: "Solicitar",
-  },
-  {
-    nombre: "Premium",
-    cop: "$900.000",
-    usd: "~$220 USD",
-    descripcion: "Auditoría integral con visibilidad simultánea H y V.",
-    incluye: [
-      "Todo lo del plan Estándar",
-      "Auditoría HV (visibilidad H y V simultánea)",
-      "Señales correctivas por hallazgos",
-      "Informe ejecutivo + técnico para interventoría",
-      "Coordenadas reales en todos los entregables",
-    ],
-    noIncluye: [],
-    destacado: false,
-    boton: "Solicitar",
-  },
-];
-
-const PlanCard = ({ plan }: { plan: typeof senalizacionPlanes[0] }) => (
+const PlanCard = ({ plan, popularBadge }: { plan: PlanItem; popularBadge: string }) => (
   <div
     className={`relative flex flex-col rounded-2xl border p-8 transition-all duration-300 ${
       plan.destacado
@@ -124,7 +36,7 @@ const PlanCard = ({ plan }: { plan: typeof senalizacionPlanes[0] }) => (
   >
     {plan.destacado && (
       <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-primary px-4 py-1 text-xs font-semibold text-white">
-        Más popular
+        {popularBadge}
       </span>
     )}
 
@@ -170,6 +82,120 @@ const PlanCard = ({ plan }: { plan: typeof senalizacionPlanes[0] }) => (
 );
 
 const Pricing = () => {
+  const { t } = useLanguage();
+  const p = t?.Pricing;
+
+  const senalizacionPlanes: PlanItem[] = [
+    {
+      nombre: p?.s1Title || "Básico",
+      cop: "$350.000",
+      usd: "~$85 USD",
+      descripcion: p?.s1Desc || "Inventario y georeferenciación de señales verticales.",
+      incluye: p?.s1Includes || [
+        "Inventario completo de señales verticales",
+        "Categoría y código MSV 2024 por señal",
+        "Abscisa de instalación",
+        "Costado (derecho / izquierdo)",
+        "Coordenadas MAGNA-SIRGAS",
+        "Archivo digital de entrega",
+      ],
+      noIncluye: p?.s1NotIncludes || [
+        "Planos sobre ortofoto",
+        "Informe técnico",
+        "Análisis V85 / Auditoría HV",
+        "Demarcación horizontal",
+      ],
+      destacado: false,
+      boton: p?.btnRequest || "Solicitar",
+    },
+    {
+      nombre: p?.s2Title || "Estándar",
+      cop: "$500.000",
+      usd: "~$122 USD",
+      descripcion: p?.s2Desc || "Inventario completo con planos e informe técnico.",
+      incluye: p?.s2Includes || [
+        "Todo lo del plan Básico",
+        "Planos sobre ortofoto",
+        "Informe técnico con justificación normativa",
+        "Coordenadas MAGNA-SIRGAS",
+        "Archivo digital de entrega",
+      ],
+      noIncluye: p?.s2NotIncludes || ["Análisis V85 / Auditoría HV", "Demarcación horizontal"],
+      destacado: true,
+      boton: p?.btnRequest || "Solicitar",
+    },
+    {
+      nombre: p?.s3Title || "Completo",
+      cop: "$700.000",
+      usd: "~$171 USD",
+      descripcion: p?.s3Desc || "Servicio integral con análisis operacional y demarcación.",
+      incluye: p?.s3Includes || [
+        "Todo lo del plan Estándar",
+        "Análisis V85 / Auditoría HV",
+        "Demarcación horizontal",
+        "Señales correctivas por hallazgos",
+        "Informe ejecutivo para interventoría",
+      ],
+      noIncluye: p?.s3NotIncludes || [],
+      destacado: false,
+      boton: p?.btnRequest || "Solicitar",
+    },
+  ];
+
+  const auditoriaPlanes: PlanItem[] = [
+    {
+      nombre: p?.a1Title || "Básico",
+      cop: "$400.000",
+      usd: "~$98 USD",
+      descripcion: p?.a1Desc || "Geometría esencial y distancias de visibilidad.",
+      incluye: p?.a1Includes || [
+        "Análisis geométrico (radios, peraltes, sobreanchos)",
+        "Distancias de visibilidad DVP y DVA",
+        "Verificación normativa básica",
+        "Informe de hallazgos",
+      ],
+      noIncluye: p?.a1NotIncludes || [
+        "Velocidad operacional V85",
+        "Consistencia planta-perfil",
+        "Auditoría HV",
+        "Señales correctivas",
+      ],
+      destacado: false,
+      boton: p?.btnRequest || "Solicitar",
+    },
+    {
+      nombre: p?.a2Title || "Estándar",
+      cop: "$600.000",
+      usd: "~$146 USD",
+      descripcion: p?.a2Desc || "Geometría + análisis operacional V85.",
+      incluye: p?.a2Includes || [
+        "Todo lo del plan Básico",
+        "Velocidad operacional V85 (Método Lamm)",
+        "Consistencia planta-perfil",
+        "Informe técnico con justificación normativa",
+      ],
+      noIncluye: p?.a2NotIncludes || ["Auditoría HV", "Señales correctivas por hallazgos"],
+      destacado: true,
+      boton: p?.btnRequest || "Solicitar",
+    },
+    {
+      nombre: p?.a3Title || "Premium",
+      cop: "$900.000",
+      usd: "~$220 USD",
+      descripcion: p?.a3Desc || "Auditoría integral con visibilidad simultánea H y V.",
+      incluye: p?.a3Includes || [
+        "Todo lo del plan Estándar",
+        "Auditoría HV (visibilidad H y V simultánea)",
+        "Señales correctivas por hallazgos",
+        "Informe ejecutivo + técnico para interventoría",
+        "Coordenadas reales en todos los entregables",
+      ],
+      noIncluye: p?.a3NotIncludes || [],
+      destacado: false,
+      boton: p?.btnRequest || "Solicitar",
+    },
+  ];
+
   return (
     <section id="pricing" className="relative py-16 md:py-20 lg:py-28">
       <div className="absolute left-0 top-0 -z-10 h-full w-full bg-gradient-to-b from-black via-[#07111f] to-black opacity-80" />
@@ -178,51 +204,63 @@ const Pricing = () => {
         {/* HEADER */}
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <span className="mb-4 inline-block rounded-full border border-primary/20 bg-primary/10 px-5 py-2 text-sm font-medium text-primary">
-            Paquetes de Servicios
+            {p?.badge || "Paquetes de Servicios"}
           </span>
           <h2 className="mb-5 text-3xl font-bold text-white sm:text-4xl xl:text-5xl">
-            Soluciones para cada necesidad vial
+            {p?.title || "Soluciones para cada necesidad vial"}
           </h2>
           <p className="text-lg leading-relaxed text-body-color">
-            Dos líneas de servicio especializadas — diseño de señalización con
-            precios fijos por kilómetro y auditoría vial técnica integral.
+            {p?.subtitle ||
+              "Dos líneas de servicio especializadas — diseño de señalización con precios fijos por kilómetro y auditoría vial técnica integral."}
           </p>
         </div>
 
         {/* — SEÑALIZACIÓN — */}
         <div className="mb-6 flex flex-wrap items-center gap-4">
-          <span className="text-xl font-bold text-white">🚦 Diseño de Señalización Vial</span>
+          <span className="text-xl font-bold text-white">
+            {p?.signageSectionTitle || "🚦 Diseño de Señalización Vial"}
+          </span>
           <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-body-color">
-            Precio por kilómetro lineal
+            {p?.priceUnitBadge || "Precio por kilómetro lineal"}
           </span>
         </div>
 
         <div className="mb-4 grid gap-6 md:grid-cols-3">
           {senalizacionPlanes.map((plan) => (
-            <PlanCard key={plan.nombre} plan={plan} />
+            <PlanCard
+              key={plan.nombre}
+              plan={plan}
+              popularBadge={p?.popularBadge || "Más popular"}
+            />
           ))}
         </div>
 
         <p className="mb-16 text-right text-xs text-body-color/50">
-          * Proyectos &gt;15 km consultar tarifas especiales. Precios no incluyen IVA.
+          {p?.signageNote || "* Proyectos >15 km consultar tarifas especiales. Precios no incluyen IVA."}
         </p>
 
         {/* — AUDITORÍA — */}
         <div className="mb-6 flex flex-wrap items-center gap-4">
-          <span className="text-xl font-bold text-white">🔍 Auditoría Vial</span>
+          <span className="text-xl font-bold text-white">
+            {p?.auditSectionTitle || "🔍 Auditoría Vial"}
+          </span>
           <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-body-color">
-            Precio por kilómetro lineal
+            {p?.priceUnitBadge || "Precio por kilómetro lineal"}
           </span>
         </div>
 
         <div className="mb-4 grid gap-6 md:grid-cols-3">
           {auditoriaPlanes.map((plan) => (
-            <PlanCard key={plan.nombre} plan={plan} />
+            <PlanCard
+              key={plan.nombre}
+              plan={plan}
+              popularBadge={p?.popularBadge || "Más popular"}
+            />
           ))}
         </div>
 
         <p className="text-right text-xs text-body-color/50">
-          * Análisis de glorietas y óvalos se cotiza por unidad. Precios no incluyen IVA.
+          {p?.auditNote || "* Análisis de glorietas y óvalos se cotiza por unidad. Precios no incluyen IVA."}
         </p>
       </div>
     </section>
