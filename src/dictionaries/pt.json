@@ -24,6 +24,55 @@
     "stat4Unit": "projetos",
     "stat4Label": "concluídos com sucesso"
   },
+  "Metodologia": {
+    "badgeHeader": "Nossa Metodologia",
+    "mainTitle": "O que fazemos e como fazemos",
+    "mainSubtitle": "Não é um software padrão. É uma metodologia própria que automatiza processos que nenhum CAD resolve — com relatórios técnicos respaldados por normas oficiais.",
+    "whatIncludes": "O que inclui",
+    "coordSystems": "Sistemas de coordenadas",
+    "card1Badge": "Fluxo de trabalho",
+    "card1Title": "Análise geométrica a partir do seu modelo Civil 3D",
+    "card1Desc": "Nossos clientes nos fornecem o arquivo LandXML exportado diretamente do Civil 3D. A partir dele, aplicamos um fluxo de trabalho especializado para processar alinhamentos horizontais, perfil longitudinal, superelevações e seções transversais.",
+    "card1Detail": "O resultado é uma auditoria técnica completa respaldada por normas oficiais, com relatórios prontos para fiscalização e tomada de decisões.",
+    "card1Items": [
+      "Checklist normativo completo — raios mínimos, superelevações, alargamentos e comprimentos de transição avaliados perante INVIAS, MTC ou MOP",
+      "Velocidade operacional V85 — calculada trecho a trecho pelo Método Lamm (1999), identificando onde a geometria excede a velocidade real do condutor",
+      "Achados HV — cruzamento simultâneo de não conformidades horizontais e verticais no mesmo ponto quilométrico",
+      "CSV importável para o Civil 3D com inventário georreferenciado e justificativa normativa por elemento"
+    ],
+    "card2Badge": "Diferencial chave",
+    "card2Title": "Velocidade Operacional V85 — Método Lamm (1999)",
+    "card2Desc": "A V85 é a velocidade não excedida por 85% dos veículos em condições de fluxo livre. É o parâmetro base para avaliar a consistência da geometria viária.",
+    "card2Detail": "Nenhum software CAD calcula a V85 automaticamente. Exige a aplicação do modelo de Lamm (1999) trecho a trecho. Nosso processo realiza essa análise de forma automatizada.",
+    "card2Items": [
+      "Cálculo automático por trecho com o Método Lamm 1999",
+      "Avaliação de consistência entre planta e perfil",
+      "Identificação de trechos críticos pelo diferencial de V85",
+      "Compatível com INVIAS (Colômbia), MTC (Peru) e MOP (Chile)"
+    ],
+    "card3Badge": "Capacidade única",
+    "card3Title": "Auditoria HV — Visibilidade Horizontal e Vertical Simultânea",
+    "card3Desc": "Um achado HV ocorre quando uma via apresenta restrição de visibilidade em planta (horizontal) e em perfil (vertical) no mesmo ponto.",
+    "card3Detail": "A maioria das auditorias avalia H e V separadamente. Nossa metodologia detecta a sobreposição simultânea de ambas as restrições, identificando pontos cegos reais.",
+    "card3Items": [
+      "Detecção de restrições H e V no mesmo ponto quilométrico",
+      "Cálculo de DVP (Distância de Visibilidade de Parada)",
+      "Cálculo de DVA (Distância de Visibilidade de Ultrapassagem)",
+      "Relatório com achados HV georreferenciados e sinalização corretiva"
+    ],
+    "card4Badge": "Resultados concretos",
+    "card4Title": "O que o cliente recebe — Relatório técnico integral",
+    "card4Desc": "Cada projeto gera um pacote estruturado de relatórios, cobrindo desde os achados geométricos até o inventário de sinalização.",
+    "card4Detail": "Não entregamos apenas um PDF. O cliente recebe um relatório QA/QC completo com todos os achados classificados por severidade e uma base de dados georreferenciada.",
+    "card4Items": [
+      "Relatório QA/QC com achados geométricos classificados por nível de risco",
+      "Checklist normativo por curva horizontal e vertical com conformidade documentada",
+      "Achados HV georreferenciados com recomendações de intervenção e sinalização",
+      "Velocidade operacional V85 por trecho com identificação de áreas críticas",
+      "Inventário de sinalização vertical com estaca, lado, código da placa e justificativa",
+      "Pranchas sobre ortofoto, CSV importável para Civil 3D e relatório executivo"
+    ]
+  },
   "Features": {
     "mainTitle": "Ferramentas Avançadas para Segurança Viária e Análise Geométrica",
     "mainParagraph": "Automação técnica voltada para auditorias viárias, validação geométrica, sinalização e avaliação operacional sob normas da América Latina.",

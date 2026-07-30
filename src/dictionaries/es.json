@@ -24,6 +24,55 @@
     "stat4Unit": "proyectos",
     "stat4Label": "completados exitosamente"
   },
+  "Metodologia": {
+    "badgeHeader": "Nuestra Metodología",
+    "mainTitle": "Lo que hacemos y cómo lo hacemos",
+    "mainSubtitle": "No es software estándar. Es una metodología propia que automatiza procesos que ningún CAD resuelve — con entregables técnicos respaldados por normativa oficial.",
+    "whatIncludes": "Qué incluye",
+    "coordSystems": "Sistemas de coordenadas",
+    "card1Badge": "Flujo de trabajo",
+    "card1Title": "Análisis geométrico desde tu modelo Civil 3D",
+    "card1Desc": "Nuestros clientes nos entregan el LandXML exportado directamente desde Civil 3D. A partir de ese archivo, aplicamos un flujo de trabajo especializado para procesar los alineamientos horizontales, perfil longitudinal, superelevaciones y secciones transversales — sin que el cliente tenga que preparar ningún archivo adicional ni conocer la metodología de análisis.",
+    "card1Detail": "El resultado es una auditoría técnica completa respaldada por normativa oficial, con entregables listos para interventoría y toma de decisiones.",
+    "card1Items": [
+      "Checklist normativo completo — radios mínimos, peraltes, sobreanchos y longitudes de transición evaluados contra INVÍAS, MTC o MOP",
+      "Velocidad operacional V85 — calculada por el Método Lamm (1999) tramo a tramo, detectando dónde la geometría supera la velocidad real del conductor",
+      "Hallazgos HV — cruce simultáneo de incumplimientos horizontales y verticales en el mismo punto kilométrico",
+      "CSV importable de vuelta a Civil 3D con inventario georreferenciado y justificación normativa por elemento"
+    ],
+    "card2Badge": "Diferenciador clave",
+    "card2Title": "Velocidad Operacional V85 — Método Lamm (1999)",
+    "card2Desc": "La V85 es la velocidad que el 85% de los vehículos no supera en condiciones libres de tráfico. Es el parámetro base para evaluar si la geometría de una vía es consistente con el comportamiento real del conductor.",
+    "card2Detail": "Ningún software CAD —Civil 3D, AutoCAD, ni plataformas BIM— calcula V85 automáticamente. Requiere aplicar el modelo de Lamm (1999) tramo a tramo, validando la relación entre radio, peralte y velocidad de diseño. Nuestro flujo de trabajo lo hace de forma automatizada, entregando V85 real por tramo con justificación normativa.",
+    "card2Items": [
+      "Cálculo automático por tramo con Método Lamm 1999",
+      "Evaluación de consistencia planta-perfil",
+      "Identificación de tramos críticos por diferencial de V85",
+      "Compatible con INVÍAS (Colombia), MTC (Perú) y MOP (Chile)"
+    ],
+    "card3Badge": "Capacidad única",
+    "card3Title": "Auditoría HV — Visibilidad Horizontal y Vertical Simultánea",
+    "card3Desc": "Un hallazgo HV ocurre cuando una vía presenta restricción de visibilidad tanto en planta (horizontal) como en perfil (vertical) en el mismo punto. Es la condición más crítica para la seguridad vial.",
+    "card3Detail": "La mayoría de auditorías evalúan H y V por separado. Nuestra metodología detecta la superposición simultánea de ambas restricciones, identificando puntos ciegos reales que no son evidentes en el análisis individual. Esto es lo que la interventoría necesita para justificar intervenciones correctivas.",
+    "card3Items": [
+      "Detección de restricciones H y V en el mismo punto kilométrico",
+      "Cálculo de DVP (Distancia de Visibilidad de Parada)",
+      "Cálculo de DVA (Distancia de Visibilidad de Adelantamiento)",
+      "Informe con hallazgos HV georreferenciados y señales correctivas"
+    ],
+    "card4Badge": "Entregables concretos",
+    "card4Title": "Qué recibe el cliente — Informe técnico integral",
+    "card4Desc": "Cada proyecto genera un paquete de entregables estructurado que cubre desde los hallazgos geométricos hasta el inventario de señalización, respaldado por normativa oficial y listo para interventoría, licitación o toma de decisiones técnicas.",
+    "card4Detail": "No entregamos solo un PDF. El cliente recibe un informe QA/QC completo con todos los hallazgos clasificados por severidad, junto con una base de datos georreferenciada lista para usar en SIG o importar directamente en Civil 3D.",
+    "card4Items": [
+      "Informe QA/QC con hallazgos geométricos clasificados por nivel de riesgo (crítico, alto, medio)",
+      "Checklist normativo por curva horizontal y vertical con cumplimiento documentado",
+      "Hallazgos HV georreferenciados con recomendaciones de intervención y señales correctivas",
+      "Velocidad operacional V85 por tramo con identificación de tramos críticos",
+      "Inventario de señalización vertical con abscisa, costado, código de señal y justificación normativa",
+      "Planos sobre ortofoto, CSV importable en Civil 3D e informe ejecutivo para interventoría"
+    ]
+  },
   "Features": {
     "mainTitle": "Herramientas avanzadas para seguridad vial y análisis geométrico",
     "mainParagraph": "Automatización técnica orientada a auditorías viales, validación geométrica, señalización y evaluación operacional bajo normativa latinoamericana.",

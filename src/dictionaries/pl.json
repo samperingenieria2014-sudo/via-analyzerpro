@@ -24,6 +24,55 @@
     "stat4Unit": "projekty",
     "stat4Label": "zakończone sukcesem"
   },
+  "Metodologia": {
+    "badgeHeader": "Nasza Metodologia",
+    "mainTitle": "Co robimy i jak to robimy",
+    "mainSubtitle": "To nie jest standardowe oprogramowanie. To autorska metodologia, która automatyzuje procesy, których żaden program CAD nie rozwiązuje — z dokumentacją techniczną popartą oficjalnymi normami.",
+    "whatIncludes": "Co zawiera",
+    "coordSystems": "Układy współrzędnych",
+    "card1Badge": "Przepływ pracy",
+    "card1Title": "Analiza geometryczna z Twojego modelu Civil 3D",
+    "card1Desc": "Nasi klienci dostarczają nam plik LandXML wyeksportowany bezpośrednio z Civil 3D. Na podstawie tego pliku stosujemy wyspecjalizowany proces przetwarzania trasowania w planie, profilu podłużnego, przewyższeń i przekrojów poprzecznych — bez konieczności przygotowywania dodatkowych plików przez klienta czy znajomości metodologii analizy.",
+    "card1Detail": "Rezultatem jest pełny audyt techniczny poparty oficjalnymi normami, z materiałami gotowymi do nadzoru i podejmowania decyzji.",
+    "card1Items": [
+      "Pełna lista kontrolna norm — promienie minimalne, przewyższenia, poszerzenia i długości ramp oceniane pod kątem norm INVIAS, MTC lub MOP",
+      "Prędkość miarodajna V85 — obliczana metodą Lamma (1999) odcinek po odcinku, wykrywająca miejsca, gdzie geometria przekracza rzeczywistą prędkość kierowcy",
+      "Wykrycia HV — jednoczesne nałożenie niezgodności poziomych i pionowych w tym samym punkcie kilometrowym",
+      "Plik CSV do zaimportowania z powrotem do Civil 3D z georeferencyjną inwentaryzacją i uzasadnieniem normatywnym dla każdego elementu"
+    ],
+    "card2Badge": "Kluczowy wyróżnik",
+    "card2Title": "Prędkość Miarodajna V85 — Metoda Lamma (1999)",
+    "card2Desc": "V85 to prędkość, której 85% pojazdów nie przekracza w warunkach swobodnego ruchu. Jest to podstawowy parametr do oceny, czy geometria drogi jest spójna z rzeczywistym zachowaniem kierowców.",
+    "card2Detail": "Żadne oprogramowanie CAD (Civil 3D, AutoCAD, ani platformy BIM) nie oblicza V85 automatycznie. Wymaga to zastosowania modelu Lamma (1999) odcinek po odcinku. Nasz proces robi to w sposób zautomatyzowany, dostarczając rzeczywistą V85 z uzasadnieniem normatywnym.",
+    "card2Items": [
+      "Automatyczne obliczanie dla każdego odcinka metodą Lamma 1999",
+      "Ocena spójności planu i profilu podłużnego",
+      "Identyfikacja krytycznych odcinków na podstawie różnicy V85",
+      "Kompatybilność z normami INVIAS (Kolumbia), MTC (Peru) i MOP (Chile)"
+    ],
+    "card3Badge": "Unikalna możliwość",
+    "card3Title": "Audyt HV — Jednoczesna Widoczność Pozioma i Pionowa",
+    "card3Desc": "Wykrycie HV występuje, gdy droga wykazuje ograniczenie widoczności zarówno w planie (poziomo), jak i w profilu (pionowo) w tym samym punkcie. Jest to najbardziej krytyczna sytuacja dla bezpieczeństwa ruchu.",
+    "card3Detail": "Większość audytów ocenia H i V oddzielnie. Nasza metodologia wykrywa jednoczesne nałożenie obu ograniczeń, identyfikując rzeczywiste martwe punkty. Jest to dokładnie to, czego wymaga nadzór, aby uzasadnić działania naprawcze.",
+    "card3Items": [
+      "Wykrywanie ograniczeń H i V w tym samym punkcie kilometrowym",
+      "Obliczanie DVP (Odległość Widoczności Zatzymania)",
+      "Obliczanie DVA (Odległość Widoczności Wyprzedzania)",
+      "Raport z georeferencyjnymi wykryciami HV i oznakowaniem naprawczym"
+    ],
+    "card4Badge": "Konkretne rezultaty",
+    "card4Title": "Co otrzymuje klient — Kompleksowy raport techniczny",
+    "card4Desc": "Każdy projekt generuje ustrukturyzowany pakiet dokumentów, od wykrytych niezgodności geometrycznych po inwentaryzację oznakowania, poparty oficjalnymi normami i gotowy do nadzoru lub przetargów.",
+    "card4Detail": "Nie dostarczamy tylko pliku PDF. Klient otrzymuje pełny raport QA/QC ze wszystkimi wykryciami sklasyfikowanymi według poziomu ryzyka oraz georeferencyjną bazę danych gotową do użycia w GIS lub Civil 3D.",
+    "card4Items": [
+      "Raport QA/QC z niezgodnościami sklasyfikowanymi według poziomu ryzyka (krytyczny, wysoki, średni)",
+      "Listy kontrolne dla łuków poziomych i pionowych z udokumentowaną zgodnością",
+      "Georeferencyjne wykrycia HV z zaleceniami zmian i oznakowaniem naprawczym",
+      "Prędkość miarodajna V85 dla każdego odcinka z identyfikacją miejsc krytycznych",
+      "Inwentaryzacja oznakowania pionowego z kilometrażem, stroną drogi, kodem znaku i uzasadnieniem",
+      "Rysunki na ortofotomapie, plik CSV do zaimportowania w Civil 3D i raport wykonawczy"
+    ]
+  },
     "Features": {
     "mainTitle": "Zaawansowane Narzędzia do Audytu Bezpieczeństwa Ruchu i Analizy Geometrycznej",
     "mainParagraph": "Automatyzacja inżynieryjna dedykowana audytom drogowym, weryfikacji geometrii, oznakowaniu i ocenie operacyjnej według norm technicznych.",

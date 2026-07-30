@@ -24,6 +24,55 @@
     "stat4Unit": "projects",
     "stat4Label": "successfully completed"
   },
+  "Metodologia": {
+    "badgeHeader": "Our Methodology",
+    "mainTitle": "What we do and how we do it",
+    "mainSubtitle": "It is not standard software. It is a proprietary methodology that automates processes no CAD software solves — with technical deliverables backed by official standards.",
+    "whatIncludes": "What's included",
+    "coordSystems": "Coordinate systems",
+    "card1Badge": "Workflow",
+    "card1Title": "Geometric analysis directly from your Civil 3D model",
+    "card1Desc": "Our clients provide us with the LandXML exported directly from Civil 3D. From that file, we apply a specialized workflow to process horizontal alignments, longitudinal profiles, superelevations, and cross sections — without requiring the client to prepare additional files or master the analysis methodology.",
+    "card1Detail": "The result is a comprehensive technical audit backed by official standards, with deliverables ready for supervision and decision-making.",
+    "card1Items": [
+      "Complete regulatory checklist — minimum radii, superelevations, widenings, and transition lengths evaluated against INVIAS, MTC, or MOP",
+      "V85 operating speed — calculated segment by segment using Lamm's Method (1999), identifying where geometry exceeds actual driver speed",
+      "HV Findings — simultaneous overlay of horizontal and vertical non-compliances at the same station point",
+      "Importable CSV back into Civil 3D with georeferenced inventory and regulatory justification per element"
+    ],
+    "card2Badge": "Key Differentiator",
+    "card2Title": "V85 Operating Speed — Lamm's Method (1999)",
+    "card2Desc": "V85 is the speed that 85% of drivers do not exceed under free-flow conditions. It is the core parameter to evaluate whether road geometry aligns with actual driver behavior.",
+    "card2Detail": "No CAD software —Civil 3D, AutoCAD, or BIM platforms— calculates V85 automatically. It requires applying Lamm's model (1999) segment by segment. Our workflow automates this, providing actual V85 per segment with regulatory justification.",
+    "card2Items": [
+      "Automatic segment-by-segment calculation using Lamm's Method (1999)",
+      "Plan-profile consistency evaluation",
+      "Identification of critical segments based on V85 differentials",
+      "Compatible with INVIAS (Colombia), MTC (Peru), and MOP (Chile)"
+    ],
+    "card3Badge": "Unique Capability",
+    "card3Title": "HV Audit — Simultaneous Horizontal and Vertical Sight Distance",
+    "card3Desc": "An HV finding occurs when a road section has sight distance restrictions in both plan (horizontal) and profile (vertical) at the exact same location. This is the most critical condition for road safety.",
+    "card3Detail": "Most audits evaluate H and V separately. Our methodology detects the simultaneous overlap of both restrictions, uncovering true blind spots invisible in individual analyses. This gives supervisors clear technical justification for corrective actions.",
+    "card3Items": [
+      "Detection of H and V restrictions at the same station point",
+      "SSD (Stopping Sight Distance) calculation",
+      "PSD (Passing Sight Distance) calculation",
+      "Report with georeferenced HV findings and corrective signage plans"
+    ],
+    "card4Badge": "Concrete Deliverables",
+    "card4Title": "What the client receives — Comprehensive technical report",
+    "card4Desc": "Every project generates a structured package of deliverables ranging from geometric findings to signage inventory, backed by official standards and ready for supervision, bidding, or engineering decisions.",
+    "card4Detail": "We don't just deliver a PDF. The client receives a full QA/QC report with all findings categorized by severity, alongside a georeferenced database ready for GIS or direct Civil 3D import.",
+    "card4Items": [
+      "QA/QC report with geometric findings categorized by risk level (critical, high, medium)",
+      "Regulatory checklist per horizontal and vertical curve with documented compliance",
+      "Georeferenced HV findings with intervention recommendations and corrective signage",
+      "V85 operating speed per segment with critical section identification",
+      "Vertical signage inventory with station, side, sign code, and regulatory justification",
+      "Ortho-photo plans, importable CSV for Civil 3D, and executive summary for supervisors"
+    ]
+  },
   "Features": {
     "mainTitle": "Advanced Tools for Road Safety and Geometric Analysis",
     "mainParagraph": "Technical automation focused on road safety audits, geometric validation, road signage, and operational assessment under Latin American standards.",

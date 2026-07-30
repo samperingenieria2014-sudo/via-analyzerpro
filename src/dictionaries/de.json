@@ -24,6 +24,55 @@
     "stat4Unit": "Projekte",
     "stat4Label": "erfolgreich abgeschlossen"
   },
+  "Metodologia": {
+    "badgeHeader": "Unsere Methodik",
+    "mainTitle": "Was wir tun und wie wir es tun",
+    "mainSubtitle": "Es ist keine Standardsoftware. Es ist eine proprietäre Methodik, die Prozesse automatisiert, die kein CAD löst — mit technischen Ergebnissen auf Basis offizieller Normen.",
+    "whatIncludes": "Was enthalten ist",
+    "coordSystems": "Koordinatensysteme",
+    "card1Badge": "Arbeitsablauf",
+    "card1Title": "Geometrische Analyse direkt aus Ihrem Civil 3D-Modell",
+    "card1Desc": "Unsere Kunden liefern uns das direkt aus Civil 3D exportierte LandXML. Auf dieser Grundlage verarbeiten wir die Trassierung, das Längsprofil, die Querneigungen und Querprofile — ohne dass der Kunde zusätzliche Dateien vorbereiten muss.",
+    "card1Detail": "Das Ergebnis ist ein vollständiges technisches Audit nach offiziellen Standards mit prüffähigen Unterlagen.",
+    "card1Items": [
+      "Vollständige Regelwerksprüfung — Mindestradien, Querneigungen, Verbreiterungen und Übergangslängen nach INVIAS, MTC oder MOP",
+      "V85-Entwurfsgeschwindigkeit — kantenweise berechnet nach der Lamm-Methode (1999), um kritische Abschnitte zu identifizieren",
+      "HV-Befunde — gleichzeitige Überlagerung von Lage- und Höhenplanabweichungen am selben Stationierungspunkt",
+      "Importierbares CSV für Civil 3D mit georeferenziertem Bestandsverzeichnis und regelwerksbasierter Begründung"
+    ],
+    "card2Badge": "Schlüssel-Differenzator",
+    "card2Title": "V85-Geschwindigkeit — Lamm-Methode (1999)",
+    "card2Desc": "Die V85 ist die Geschwindigkeit, die von 85% der Fahrzeuge im freien Verkehr nicht überschritten wird. Sie ist der Kernparameter zur Beurteilung der Konsistenz einer Straßengeometrie.",
+    "card2Detail": "Keine CAD-Software berechnet die V85 automatisch. Dies erfordert die schrittweise Anwendung des Lamm-Modells (1999). Unser Workflow automatisiert diesen Prozess vollständig.",
+    "card2Items": [
+      "Automatische Berechnung pro Abschnitt nach der Lamm-Methode 1999",
+      "Bewertung der Konsistenz zwischen Lage- und Höhenplan",
+      "Identifizierung kritischer Abschnitte anhand von V85-Differenzen",
+      "Kompatibel mit INVIAS (Kolumbien), MTC (Peru) und MOP (Chile)"
+    ],
+    "card3Badge": "Einzigartige Funktion",
+    "card3Title": "HV-Audit — Gleichzeitige Sichtweitenprüfung in Lage und Höhe",
+    "card3Desc": "Ein HV-Befund liegt vor, wenn an ein und demselben Punkt sowohl in der Horizontale als auch in der Vertikale Sichtweiteneinschränkungen auftreten.",
+    "card3Detail": "Die meisten Audits bewerten Lage und Höhe getrennt. Unsere Methodik erkennt die gleichzeitige Überlagerung beider Einschränkungen und deckt echte tote Winkel auf.",
+    "card3Items": [
+      "Erkennung von H- und V-Einschränkungen am selben Stationierungspunkt",
+      "Berechnung der Haltedistanz (DVP)",
+      "Berechnung der Überholdistanz (DVA)",
+      "Bericht mit georeferenzierten HV-Befunden und Korrekturmaßnahmen"
+    ],
+    "card4Badge": "Konkrete Ergebnisse",
+    "card4Title": "Was der Kunde erhält — Umfassender technischer Bericht",
+    "card4Desc": "Jedes Projekt liefert ein strukturiertes Ergebnispaket von geometrischen Befunden bis hin zum Beschilderungsinventar auf Basis offizieller Normen.",
+    "card4Detail": "Wir liefern mehr als nur ein PDF. Der Kunde erhält einen vollständigen QA/QC-Bericht mit allen nach Schweregrad klassifizierten Befunden sowie eine georeferenzierte Datenbank.",
+    "card4Items": [
+      "QA/QC-Bericht mit geometrischen Befunden nach Risikostufe",
+      "Regelwerksprüfung pro Kurve mit dokumentierter Konformität",
+      "Georeferenzierte HV-Befunde mit Handlungsempfehlungen",
+      "V85-Entwurfsgeschwindigkeit pro Abschnitt mit Kennzeichnung kritischer Bereiche",
+      "Vertikales Beschilderungsinventar mit Stationierung und Regelwerksbegründung",
+      "Ortofoto-Pläne, CSV für Civil 3D und Management-Bericht"
+    ]
+  },
   "Features": {
     "mainTitle": "Erweiterte Werkzeuge für Verkehrssicherheit und Geometrische Analyse",
     "mainParagraph": "Ingenieurtechnische Automatisierung für Verkehrssicherheitsaudits, geometrische Überprüfung, Beschilderung und betriebliche Bewertung nach technischen Standards.",

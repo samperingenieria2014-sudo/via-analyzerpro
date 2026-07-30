@@ -24,6 +24,55 @@
     "stat4Unit": "progetti",
     "stat4Label": "completati con successo"
   },
+  "Metodologia": {
+    "badgeHeader": "La Nostra Metodologia",
+    "mainTitle": "Cosa facciamo e come lo facciamo",
+    "mainSubtitle": "Non è un software standard. È una metodologia proprietaria che automatizza processi che nessun CAD risolve — con elaborati tecnici supportati da normative ufficiali.",
+    "whatIncludes": "Cosa include",
+    "coordSystems": "Sistemi di coordinate",
+    "card1Badge": "Flusso di lavoro",
+    "card1Title": "Analisi geometrica dal tuo modello Civil 3D",
+    "card1Desc": "I nostri clienti ci forniscono il file LandXML esportato direttamente da Civil 3D. Da quel file, applichiamo un flusso di lavoro specializzato per elaborare tracciati orizzontali, profilo longitudinale, pendenze e sezioni trasversali.",
+    "card1Detail": "Il risultato è un audit tecnico completo supportato dalle normative ufficiali, pronto per la direzione lavori e le decisioni strategiche.",
+    "card1Items": [
+      "Checklist normativa completa — raggi minimi, pendenze, allargamenti e lunghezze di transizione valutati rispetto a INVIAS, MTC o MOP",
+      "Velocità operativa V85 — calcolata tratto per tratto con il Metodo Lamm (1999), individuando dove la geometria supera la velocità reale del conducente",
+      "Rilevamenti HV — sovrapposizione simultanea di non conformità orizzontali e verticali nello stesso punto chilometrico",
+      "CSV importabile in Civil 3D con inventario georiferito e giustificazione normativa per ogni elemento"
+    ],
+    "card2Badge": "Differenziatore chiave",
+    "card2Title": "Velocità Operativa V85 — Metodo Lamm (1999)",
+    "card2Desc": "La V85 è la velocità non superata dall'85% dei veicoli in condizioni di flusso libero. È il parametro fondamentale per valutare la coerenza della geometria stradale.",
+    "card2Detail": "Nessun software CAD calcola automaticamente la V85. Richiede l'applicazione del modello di Lamm (1999) tratto per tratto. Il nostro processo lo esegue in modo automatizzato.",
+    "card2Items": [
+      "Calcolo automatico per tratto con il Metodo Lamm 1999",
+      "Valutazione della coerenza tra planimetria e profilo",
+      "Identificazione dei tratti critici in base al differenziale di V85",
+      "Compatibile con le normative INVIAS (Colombia), MTC (Perù) e MOP (Cile)"
+    ],
+    "card3Badge": "Capacità unica",
+    "card3Title": "Audit HV — Visibilità Orizzontale e Verticale Simultanea",
+    "card3Desc": "Un rilevamento HV si verifica quando un tratto stradale presenta una restrizione di visibilità sia in planimetria (orizzontale) che in profilo (verticale) nello stesso punto.",
+    "card3Detail": "La maggior parte degli audit valuta H e V separatamente. La nostra metodologia individua la sovrapposizione simultanea, identificando i veri punti ciechi.",
+    "card3Items": [
+      "Rilevamento delle restrizioni H e V nello stesso punto chilometrico",
+      "Calcolo della distanza di visibilità d'arresto (DVP)",
+      "Calcolo della distanza di visibilità di sorpasso (DVA)",
+      "Report con rilevamenti HV georiferiti e segnaletica correttiva"
+    ],
+    "card4Badge": "Risultati concreti",
+    "card4Title": "Cosa riceve il cliente — Report tecnico completo",
+    "card4Desc": "Ogni progetto genera un pacchetto strutturato di elaborati che copre dalle anomalie geometriche all'inventario della segnaletica.",
+    "card4Detail": "Non forniamo solo un PDF. Il cliente riceve un report QA/QC completo con tutti i rilevamenti classificati per gravità e un database georiferito.",
+    "card4Items": [
+      "Report QA/QC con rilevamenti geometrici classificati per livello di rischio",
+      "Checklist normativa per curva orizzontale e verticale con conformità documentata",
+      "Rilevamenti HV georiferiti con raccomandazioni di intervento e segnaletica correttiva",
+      "Velocità operativa V85 per tratto con individuazione dei punti critici",
+      "Inventario della segnaletica verticale con progressiva, lato e giustificazione",
+      "Tavole su ortofoto, CSV importabile in Civil 3D e relazione esecutiva"
+    ]
+  },
     "Features": {
     "mainTitle": "Strumenti Avanzati per la Sicurezza Stradale e l'Analisi Geometrica",
     "mainParagraph": "Automazione tecnica orientata ad audit di sicurezza stradale, verifica geometrica, segnaletica e valutazione operativa secondo gli standard tecnici.",

@@ -24,6 +24,55 @@
     "stat4Unit": "projets",
     "stat4Label": "réalisés avec succès"
   },
+  "Metodologia": {
+    "badgeHeader": "Notre Méthodologie",
+    "mainTitle": "Ce que nous faisons et comment nous le faisons",
+    "mainSubtitle": "Ce n'est pas un logiciel standard. C'est une méthodologie exclusive qui automatise des processus qu'aucun CAD ne résout — avec des livrables techniques appuyés par les normes officielles.",
+    "whatIncludes": "Ce qui est inclus",
+    "coordSystems": "Systèmes de coordonnées",
+    "card1Badge": "Flux de travail",
+    "card1Title": "Analyse géométrique à partir de votre modèle Civil 3D",
+    "card1Desc": "Nos clients nous fournissent le fichier LandXML exporté directement depuis Civil 3D. À partir de ce fichier, nous appliquons un flux de travail spécialisé pour traiter les tracés en plan, le profil en long, les devers et les profils en travers.",
+    "card1Detail": "Le résultat est un audit technique complet appuyé par les normes officielles, avec des livrables prêts pour le contrôle et la prise de décision.",
+    "card1Items": [
+      "Checklist réglementaire complète — rayons minimaux, devers, surlargeurs et longueurs de transition évalués selon INVIAS, MTC ou MOP",
+      "Vitesse opérationnelle V85 — calculée tronçon par tronçon selon la méthode Lamm (1999), identifiant les zones où la géométrie dépasse la vitesse réelle du conducteur",
+      "Constatations HV — croisement simultané de non-conformités horizontales et verticales au même point kilométrique",
+      "Fichier CSV importable dans Civil 3D avec inventaire géoréférencé et justification normative par élément"
+    ],
+    "card2Badge": "Différenciateur clé",
+    "card2Title": "Vitesse Opérationnelle V85 — Méthode Lamm (1999)",
+    "card2Desc": "La V85 est la vitesse que 85% des véhicules ne dépassent pas en conditions de circulation fluide. C'est le paramètre clé pour évaluer la cohérence géométrique.",
+    "card2Detail": "Aucun logiciel CAD ne calcule automatiquement la V85. Cela nécessite l'application du modèle de Lamm (1999) tronçon par tronçon. Notre méthodologie l'automatise intégralement.",
+    "card2Items": [
+      "Calcul automatique par tronçon selon la méthode Lamm 1999",
+      "Évaluation de la cohérence plan-profil",
+      "Identification des tronçons critiques selon le différentiel de V85",
+      "Compatible avec les normes INVIAS (Colombie), MTC (Pérou) et MOP (Chili)"
+    ],
+    "card3Badge": "Capacité unique",
+    "card3Title": "Audit HV — Visibilité Horizontale et Verticale Simultanée",
+    "card3Desc": "Une constatation HV survient lorsqu'une route présente une restriction de visibilité à la fois en plan (horizontal) et en profil (vertical) au même point.",
+    "card3Detail": "La plupart des audits évaluent H et V séparément. Notre méthodologie détecte la superposition simultanée des deux restrictions, identifiant les véritables angles morts.",
+    "card3Items": [
+      "Détection des restrictions H et V au même point kilométrique",
+      "Calcul de la distance de visibilité d'arrêt (DVP)",
+      "Calcul de la distance de visibilité de dépassement (DVA)",
+      "Rapport avec constatations HV géoréférencées et signalisation corrective"
+    ],
+    "card4Badge": "Livrables concrets",
+    "card4Title": "Ce que reçoit le client — Rapport technique complet",
+    "card4Desc": "Chaque projet génère un ensemble structuré de livrables, couvrant les constatations géométriques jusqu'à l'inventaire de la signalisation.",
+    "card4Detail": "Nous ne fournissons pas seulement un PDF. Le client reçoit un rapport QA/QC complet avec l'ensemble des constatations classées par gravité et une base de données géoréférencée.",
+    "card4Items": [
+      "Rapport QA/QC avec constatations géométriques classées par niveau de risque",
+      "Checklist réglementaire par courbe avec conformité documentée",
+      "Constatations HV géoréférencées avec recommandations d'intervention",
+      "Vitesse opérationnelle V85 par tronçon avec identification des zones critiques",
+      "Inventaire de la signalisation verticale avec point kilométrique et justification",
+      "Plans sur orthophoto, fichier CSV pour Civil 3D et rapport exécutif"
+    ]
+  },
   "Features": {
     "mainTitle": "Outils Avancés pour la Sécurité Routière et l'Analyse Géométrique",
     "mainParagraph": "Automatisation technique dédiée aux audits de sécurité routière, à la validation géométrique, à la signalisation et à l'évaluation opérationnelle.",
