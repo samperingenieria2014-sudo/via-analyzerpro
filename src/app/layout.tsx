@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -7,6 +8,21 @@ import { Inter } from "next/font/google";
 import "../styles/index.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+// Configuración de Metadatos y Hreflang para Google
+export const metadata: Metadata = {
+  title: "ViaAnalyzer PRO | Auditoría Vial Inteligente",
+  description: "Auditoría vial basada en análisis geométrico, velocidad V85 y normativas de Colombia (INVÍAS), Perú (MTC) y Chile (MOP).",
+  alternates: {
+    canonical: "https://samperingenieria.vercel.app",
+    languages: {
+      "es-CO": "https://samperingenieria.vercel.app",
+      "es-PE": "https://samperingenieria.vercel.app",
+      "es-CL": "https://samperingenieria.vercel.app",
+      "es": "https://samperingenieria.vercel.app",
+    },
+  },
+};
 
 export default function RootLayout({
   children,
@@ -23,7 +39,7 @@ export default function RootLayout({
             {children}
             <Footer />
           </div>
-<ScrollToTop />
+          <ScrollToTop />
         </Providers>
 
         {/* Vercel Analytics */}
