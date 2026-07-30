@@ -6,7 +6,7 @@ import { useLanguage } from "@/context/LanguageContext";
 
 const Footer = () => {
   const { t } = useLanguage();
-  const f = t?.Footer;
+  const f = (t?.Footer || {}) as any;
 
   return (
     <>
