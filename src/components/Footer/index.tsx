@@ -1,8 +1,13 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "@/context/LanguageContext";
 
 const Footer = () => {
+  const { t } = useLanguage();
+  const f = t?.Footer;
+
   return (
     <>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
@@ -18,16 +23,16 @@ const Footer = () => {
                     alt="Samper Ingeniería y Topografía"
                     width={180}
                     height={60}
-                    className="object-contain" style={{ width: "180px", height: "auto" }}
+                    className="object-contain"
+                    style={{ width: "180px", height: "auto" }}
                   />
                 </Link>
                 <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Auditoría vial inteligente basada en análisis geométrico,
-                  velocidad operacional V85 y normativa oficial de Colombia,
-                  Perú y Chile.
+                  {f?.description ||
+                    "Auditoría vial inteligente basada en análisis geométrico, velocidad operacional V85 y normativa oficial de Colombia, Perú y Chile."}
                 </p>
 
-                {/* Redes sociales: solo LinkedIn y WhatsApp */}
+                {/* Redes sociales */}
                 <div className="flex items-center gap-4">
                   {/* LinkedIn */}
                   <a
@@ -62,17 +67,17 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-8 text-sm font-bold uppercase tracking-widest text-black dark:text-white">
-                  Navegación
+                  {f?.navTitle || "Navegación"}
                 </h2>
                 <ul>
                   {[
-                    { label: "Servicios", href: "#features" },
-                    { label: "Metodología", href: "#metodologia" },
-                    { label: "Casos Reales", href: "#case-studies" },
-                    { label: "Precios", href: "#pricing" },
-                    { label: "Contacto", href: "#contact" },
-                  ].map((item) => (
-                    <li key={item.label}>
+                    { label: f?.navServices || "Servicios", href: "#features" },
+                    { label: f?.navMethodology || "Metodología", href: "#metodologia" },
+                    { label: f?.navCases || "Casos Reales", href: "#case-studies" },
+                    { label: f?.navPricing || "Precios", href: "#pricing" },
+                    { label: f?.navContact || "Contacto", href: "#contact" },
+                  ].map((item, idx) => (
+                    <li key={idx}>
                       <a
                         href={item.href}
                         className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -89,17 +94,17 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-8 text-sm font-bold uppercase tracking-widest text-black dark:text-white">
-                  Servicios
+                  {f?.servicesTitle || "Servicios"}
                 </h2>
                 <ul>
                   {[
-                    "Auditoría Vial",
-                    "Análisis V85",
-                    "Señalización",
-                    "Glorietas y Óvalos",
-                    "Normativa Multipaís",
-                  ].map((s) => (
-                    <li key={s}>
+                    f?.serviceAudit || "Auditoría Vial",
+                    f?.serviceV85 || "Análisis V85",
+                    f?.serviceSigns || "Señalización",
+                    f?.serviceRoundabouts || "Glorietas y Óvalos",
+                    f?.serviceStandards || "Normativa Multipaís",
+                  ].map((s, idx) => (
+                    <li key={idx}>
                       <a
                         href="#features"
                         className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -116,12 +121,12 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-8 text-sm font-bold uppercase tracking-widest text-black dark:text-white">
-                  Contacto
+                  {f?.contactTitle || "Contacto"}
                 </h2>
                 <ul className="space-y-4">
                   <li>
                     <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-primary">
-                      WhatsApp
+                      {f?.labelWhatsapp || "WHATSAPP"}
                     </p>
                     <a
                       href="https://wa.me/573186053141"
@@ -134,18 +139,18 @@ const Footer = () => {
                   </li>
                   <li>
                     <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-primary">
-                      Correo
+                      {f?.labelEmail || "CORREO"}
                     </p>
                     <a
                       href="mailto:samperingenieria2014@gmail.com"
-                      className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary break-all"
                     >
                       samperingenieria2014@gmail.com
                     </a>
                   </li>
                   <li>
                     <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-primary">
-                      LinkedIn
+                      {f?.labelLinkedin || "LINKEDIN"}
                     </p>
                     <a
                       href="https://www.linkedin.com/in/ivansamperyunda"
@@ -158,7 +163,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-primary">
-                      Normativas
+                      {f?.labelStandards || "NORMATIVAS"}
                     </p>
                     <p className="text-base text-body-color dark:text-body-color-dark">
                       🇨🇴 INVÍAS · 🇵🇪 MTC · 🇨🇱 MOP
@@ -170,32 +175,25 @@ const Footer = () => {
 
           </div>
 
-          {/* ── Barra inferior ── */}
-          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]" />
-          
-          {/* ── Contador de Visitantes (Flag Counter O2xN) ── */}
-          <div className="mt-6 flex flex-col items-center justify-center text-center">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-body-color dark:text-body-color-dark">
-              Estadísticas Globales de Visitantes
+          {/* ── Widget FlagCounter ── */}
+          <div className="flex flex-col items-center justify-center pt-4 pb-6">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-body-color dark:text-body-color-dark">
+              {f?.visitorStats || "ESTADÍSTICAS GLOBALES DE VISITANTES"}
             </p>
-            <a 
-              href="https://info.flagcounter.com/O2xN" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block transition-opacity hover:opacity-90"
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="https://s05.flagcounter.com/count2/O2xN/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" 
-                alt="Flag Counter" 
+            <a href="https://info.flagcounter.com/S83j" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://s11.flagcounter.com/count2/S83j/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/timeline_0/"
+                alt="Flag Counter"
                 className="rounded border border-stroke dark:border-dark-3"
               />
             </a>
           </div>
 
+          {/* ── Barra inferior ── */}
+          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]" />
           <div className="flex flex-col items-center justify-between py-8 sm:flex-row">
             <p className="text-sm text-body-color dark:text-body-color-dark">
-              © {new Date().getFullYear()} Samper Ingeniería & Topografía — Todos los derechos reservados
+              © {new Date().getFullYear()} {f?.copyright || "Samper Ingeniería & Topografía — Todos los derechos reservados"}
             </p>
             <span className="mt-3 rounded-full border border-primary/20 bg-primary/10 px-4 py-1 text-xs font-semibold text-primary sm:mt-0">
               ViaAnalyzer PRO · MSV 2024
