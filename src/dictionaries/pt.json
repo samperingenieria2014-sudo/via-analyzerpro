@@ -255,5 +255,27 @@
       "Coordenadas reais em todos os entregáveis"
     ],
     "a3NotIncludes": []
+  },
+  "Contact": {
+    "badge": "Engenharia viária avançada",
+    "title": "Solicite uma avaliação técnica do seu projeto viário",
+    "subtitle": "Analisamos geometria, velocidade operacional V85, sinalização, visibilidade e conformidade normativa sob normas oficiais da Colômbia, Peru e Chile.",
+    "fieldName": "Nome completo",
+    "placeholderName": "Digite seu nome",
+    "fieldEmail": "E-mail",
+    "placeholderEmail": "Seu e-mail",
+    "fieldCompany": "Empresa / Entidade",
+    "placeholderCompany": "Nome da sua empresa",
+    "fieldCountry": "País do projeto",
+    "countryOther": "Outro",
+    "fieldMessage": "Fale-nos sobre o seu projeto",
+    "placeholderMessage": "Descreva o tipo de via, problemática, auditoria ou necessidade técnica que deseja avaliar...",
+    "btnSubmit": "Solicitar avaliação técnica",
+    "btnSending": "Enviando...",
+    "successMsg": "✓ Mensagem enviada com sucesso. Entraremos em contato em breve.",
+    "errorMsg": "Ocorreu um erro ao enviar. Tente novamente ou entre em contato diretamente.",
+    "labelEmail": "E-mail",
+    "labelWhatsapp": "WhatsApp técnico",
+    "labelCoverage": "Cobertura normativa"
   }
 }

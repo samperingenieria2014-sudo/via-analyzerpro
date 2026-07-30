@@ -255,5 +255,27 @@
       "Coordinate reali in tutti i documenti"
     ],
     "a3NotIncludes": []
+  },
+  "Contact": {
+    "badge": "Ingegneria stradale avanzata",
+    "title": "Richiedi una valutazione tecnica del tuo progetto stradale",
+    "subtitle": "Analizziamo geometria, velocità operativa V85, segnaletica, visibilità e conformità normativa secondo gli standard ufficiali di Colombia, Perù e Cile.",
+    "fieldName": "Nome completo",
+    "placeholderName": "Inserisci il tuo nome",
+    "fieldEmail": "Indirizzo e-mail",
+    "placeholderEmail": "La tua e-mail",
+    "fieldCompany": "Azienda / Ente",
+    "placeholderCompany": "Nome della tua azienda",
+    "fieldCountry": "Paese del progetto",
+    "countryOther": "Altro",
+    "fieldMessage": "Raccontaci del tuo progetto",
+    "placeholderMessage": "Descrivi il tipo di strada, la problematica, l'audit o l'esigenza tecnica che desideri valutare...",
+    "btnSubmit": "Richiedi valutazione tecnica",
+    "btnSending": "Invio in corso...",
+    "successMsg": "✓ Messaggio inviato con successo. Ti contatteremo a breve.",
+    "errorMsg": "Si è verificato un errore durante l'invio. Riprova o scrivici direttamente.",
+    "labelEmail": "Indirizzo e-mail",
+    "labelWhatsapp": "WhatsApp tecnico",
+    "labelCoverage": "Copertura normativa"
   }
 }

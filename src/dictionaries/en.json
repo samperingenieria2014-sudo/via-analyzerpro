@@ -257,5 +257,27 @@
       "Real-world coordinates across all deliverables"
     ],
     "a3NotIncludes": []
+  },
+  "Contact": {
+    "badge": "Advanced Highway Engineering",
+    "title": "Request a Technical Evaluation of Your Road Project",
+    "subtitle": "We analyze geometry, V85 operating speed, signage, sight distance, and regulatory compliance under official standards for Colombia, Peru, and Chile.",
+    "fieldName": "Full Name",
+    "placeholderName": "Enter your full name",
+    "fieldEmail": "Email Address",
+    "placeholderEmail": "Your email address",
+    "fieldCompany": "Company / Entity",
+    "placeholderCompany": "Your company name",
+    "fieldCountry": "Project Location / Country",
+    "countryOther": "Other",
+    "fieldMessage": "Tell Us About Your Project",
+    "placeholderMessage": "Describe the road type, issues, audit scope, or technical needs you wish to evaluate...",
+    "btnSubmit": "Request Technical Evaluation",
+    "btnSending": "Sending...",
+    "successMsg": "✓ Message sent successfully. We will contact you soon.",
+    "errorMsg": "There was an error sending your request. Please try again or contact us directly.",
+    "labelEmail": "Email Address",
+    "labelWhatsapp": "Technical WhatsApp",
+    "labelCoverage": "Regulatory Coverage"
   }
 }

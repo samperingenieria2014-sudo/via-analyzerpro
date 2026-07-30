@@ -1,11 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { useLanguage } from "@/context/LanguageContext";
 
-// 👇 Reemplaza TU_ID_FORMSPREE con el ID que obtienes en formspree.io (ej: "xpwzabcd")
 const FORMSPREE_ID = "xeenwaej";
 
 const Contact = () => {
+  const { t } = useLanguage();
+  const c = t?.Contact;
+
   const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -40,21 +43,18 @@ const Contact = () => {
 
       <div className="container">
         <div className="mx-auto max-w-6xl">
-
           <div className="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-8 shadow-[0_0_80px_rgba(0,0,0,0.45)] backdrop-blur-sm dark:bg-[#101826] sm:p-12">
-
+            
             {/* Header */}
             <div className="mb-12 max-w-3xl">
               <span className="mb-4 inline-block rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
-                Ingeniería vial avanzada
+                {c?.badge || "Ingeniería vial avanzada"}
               </span>
               <h2 className="mb-5 text-3xl font-bold leading-tight text-white sm:text-4xl xl:text-5xl">
-                Solicita una evaluación técnica de tu proyecto vial
+                {c?.title || "Solicita una evaluación técnica de tu proyecto vial"}
               </h2>
               <p className="text-lg leading-relaxed text-body-color">
-                Analizamos geometría, velocidad operacional V85,
-                señalización, visibilidad y cumplimiento normativo bajo
-                estándares oficiales de Colombia, Perú y Chile.
+                {c?.subtitle || "Analizamos geometría, velocidad operacional V85, señalización, visibilidad y cumplimiento normativo bajo estándares oficiales de Colombia, Perú y Chile."}
               </p>
             </div>
 
@@ -66,14 +66,14 @@ const Contact = () => {
                 <div className="w-full px-4 md:w-1/2">
                   <div className="mb-8">
                     <label htmlFor="name" className="mb-3 block text-sm font-semibold text-white">
-                      Nombre completo
+                      {c?.fieldName || "Nombre completo"}
                     </label>
                     <input
                       id="name"
                       name="name"
                       type="text"
                       required
-                      placeholder="Ingresa tu nombre"
+                      placeholder={c?.placeholderName || "Ingresa tu nombre"}
                       className="w-full rounded-xl border border-white/[0.08] bg-white/[0.04] px-6 py-4 text-base text-white outline-hidden transition-all duration-300 placeholder:text-gray-400 focus:border-primary focus:bg-white/[0.06]"
                     />
                   </div>
@@ -83,14 +83,14 @@ const Contact = () => {
                 <div className="w-full px-4 md:w-1/2">
                   <div className="mb-8">
                     <label htmlFor="email" className="mb-3 block text-sm font-semibold text-white">
-                      Correo electrónico
+                      {c?.fieldEmail || "Correo electrónico"}
                     </label>
                     <input
                       id="email"
                       name="email"
                       type="email"
                       required
-                      placeholder="Tu email"
+                      placeholder={c?.placeholderEmail || "Tu email"}
                       className="w-full rounded-xl border border-white/[0.08] bg-white/[0.04] px-6 py-4 text-base text-white outline-hidden transition-all duration-300 placeholder:text-gray-400 focus:border-primary focus:bg-white/[0.06]"
                     />
                   </div>
@@ -100,13 +100,13 @@ const Contact = () => {
                 <div className="w-full px-4 md:w-1/2">
                   <div className="mb-8">
                     <label htmlFor="company" className="mb-3 block text-sm font-semibold text-white">
-                      Empresa / Entidad
+                      {c?.fieldCompany || "Empresa / Entidad"}
                     </label>
                     <input
                       id="company"
                       name="company"
                       type="text"
-                      placeholder="Nombre de tu empresa"
+                      placeholder={c?.placeholderCompany || "Nombre de tu empresa"}
                       className="w-full rounded-xl border border-white/[0.08] bg-white/[0.04] px-6 py-4 text-base text-white outline-hidden transition-all duration-300 placeholder:text-gray-400 focus:border-primary focus:bg-white/[0.06]"
                     />
                   </div>
@@ -116,17 +116,17 @@ const Contact = () => {
                 <div className="w-full px-4 md:w-1/2">
                   <div className="mb-8">
                     <label htmlFor="country" className="mb-3 block text-sm font-semibold text-white">
-                      País del proyecto
+                      {c?.fieldCountry || "País del proyecto"}
                     </label>
                     <select
                       id="country"
                       name="country"
                       className="w-full rounded-xl border border-white/[0.08] bg-white/[0.04] px-6 py-4 text-base text-white outline-hidden transition-all duration-300 focus:border-primary focus:bg-white/[0.06]"
                     >
-                      <option className="text-black">Colombia</option>
-                      <option className="text-black">Perú</option>
-                      <option className="text-black">Chile</option>
-                      <option className="text-black">Otro</option>
+                      <option className="text-black" value="Colombia">Colombia</option>
+                      <option className="text-black" value="Perú">Perú</option>
+                      <option className="text-black" value="Chile">Chile</option>
+                      <option className="text-black" value="Otro">{c?.countryOther || "Otro"}</option>
                     </select>
                   </div>
                 </div>
@@ -135,14 +135,14 @@ const Contact = () => {
                 <div className="w-full px-4">
                   <div className="mb-8">
                     <label htmlFor="message" className="mb-3 block text-sm font-semibold text-white">
-                      Cuéntanos sobre tu proyecto
+                      {c?.fieldMessage || "Cuéntanos sobre tu proyecto"}
                     </label>
                     <textarea
                       id="message"
                       name="message"
                       rows={6}
                       required
-                      placeholder="Describe el tipo de vía, problemática, auditoría o necesidad técnica que deseas evaluar..."
+                      placeholder={c?.placeholderMessage || "Describe el tipo de vía, problemática, auditoría o necesidad técnica que deseas evaluar..."}
                       className="w-full resize-none rounded-xl border border-white/[0.08] bg-white/[0.04] px-6 py-4 text-base text-white outline-hidden transition-all duration-300 placeholder:text-gray-400 focus:border-primary focus:bg-white/[0.06]"
                     />
                   </div>
@@ -155,17 +155,19 @@ const Contact = () => {
                     disabled={status === "sending" || status === "ok"}
                     className="rounded-xl bg-primary px-10 py-4 text-base font-semibold text-white shadow-lg transition-all duration-300 hover:scale-[1.02] hover:bg-primary/90 disabled:cursor-not-allowed disabled:opacity-60"
                   >
-                    {status === "sending" ? "Enviando..." : "Solicitar evaluación técnica"}
+                    {status === "sending"
+                      ? (c?.btnSending || "Enviando...")
+                      : (c?.btnSubmit || "Solicitar evaluación técnica")}
                   </button>
 
                   {status === "ok" && (
                     <p className="mt-4 text-sm font-semibold text-emerald-400">
-                      ✓ Mensaje enviado con éxito. Te contactaremos pronto.
+                      {c?.successMsg || "✓ Mensaje enviado con éxito. Te contactaremos pronto."}
                     </p>
                   )}
                   {status === "error" && (
                     <p className="mt-4 text-sm font-semibold text-red-400">
-                      Hubo un error al enviar. Intenta de nuevo o escríbenos directamente.
+                      {c?.errorMsg || "Hubo un error al enviar. Intenta de nuevo o escríbenos directamente."}
                     </p>
                   )}
                 </div>
@@ -178,7 +180,7 @@ const Contact = () => {
 
               <div className="rounded-xl border border-white/[0.08] bg-white/[0.03] p-5">
                 <p className="mb-2 text-sm uppercase tracking-widest text-primary">
-                  Correo electrónico
+                  {c?.labelEmail || "Correo electrónico"}
                 </p>
                 <a
                   href="mailto:samperingenieria2014@gmail.com"
@@ -190,9 +192,8 @@ const Contact = () => {
 
               <div className="rounded-xl border border-white/[0.08] bg-white/[0.03] p-5">
                 <p className="mb-2 text-sm uppercase tracking-widest text-primary">
-                  WhatsApp técnico
+                  {c?.labelWhatsapp || "WhatsApp técnico"}
                 </p>
-                {/* ⚠️ PENDIENTE: confirma cuál es el número correcto */}
                 <a
                   href="https://wa.me/573186053141"
                   target="_blank"
@@ -205,7 +206,7 @@ const Contact = () => {
 
               <div className="rounded-xl border border-white/[0.08] bg-white/[0.03] p-5">
                 <p className="mb-2 text-sm uppercase tracking-widest text-primary">
-                  Cobertura normativa
+                  {c?.labelCoverage || "Cobertura normativa"}
                 </p>
                 <p className="text-lg font-semibold text-white">
                   🇨🇴 Colombia · 🇵🇪 Perú · 🇨🇱 Chile

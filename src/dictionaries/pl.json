@@ -255,5 +255,27 @@
       "Rzeczywiste współrzędne we wszystkich plikach"
     ],
     "a3NotIncludes": []
+  },
+  "Contact": {
+    "badge": "Zaawansowana inżynieria drogowa",
+    "title": "Zamów ocenę techniczną swojego projektu drogowego",
+    "subtitle": "Analizujemy geometrię, prędkość miarodajną V85, oznakowanie, widoczność oraz zgodność z oficjalnymi normami Kolumbii, Peru i Chile.",
+    "fieldName": "Imię i nazwisko",
+    "placeholderName": "Wpisz swoje imię i nazwisko",
+    "fieldEmail": "Adres e-mail",
+    "placeholderEmail": "Twój e-mail",
+    "fieldCompany": "Firma / Instytucja",
+    "placeholderCompany": "Nazwa Twojej firmy",
+    "fieldCountry": "Kraj projektu",
+    "countryOther": "Inny",
+    "fieldMessage": "Opowiedz nam o swoim projekcie",
+    "placeholderMessage": "Opisz typ drogi, problematykę, audyt lub potrzebę techniczną, którą chcesz przeanalizować...",
+    "btnSubmit": "Zamów ocenę techniczną",
+    "btnSending": "Wysyłanie...",
+    "successMsg": "✓ Wiadomość wysłana pomyślnie. Skontaktujemy się z Tobą wkrótce.",
+    "errorMsg": "Wystąpił błąd podczas wysyłania. Spróbuj ponownie lub napisz do nas bezpośrednio.",
+    "labelEmail": "Adres e-mail",
+    "labelWhatsapp": "Wsparcie techniczne WhatsApp",
+    "labelCoverage": "Zgodność z normami"
   }
 }

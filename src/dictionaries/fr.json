@@ -255,5 +255,27 @@
       "Coordonnées réelles sur tous les livrables"
     ],
     "a3NotIncludes": []
+  },
+  "Contact": {
+    "badge": "Ingénierie routière avancée",
+    "title": "Demandez une évaluation technique de votre projet routier",
+    "subtitle": "Nous analysons la géométrie, la vitesse opérationnelle V85, la signalisation, la visibilité et la conformité réglementaire selon les normes officielles de Colombie, du Pérou et du Chili.",
+    "fieldName": "Nom complet",
+    "placeholderName": "Entrez votre nom",
+    "fieldEmail": "Adresse e-mail",
+    "placeholderEmail": "Votre e-mail",
+    "fieldCompany": "Entreprise / Entité",
+    "placeholderCompany": "Nom de votre entreprise",
+    "fieldCountry": "Pays du projet",
+    "countryOther": "Autre",
+    "fieldMessage": "Parlez-nous de votre projet",
+    "placeholderMessage": "Décrivez le type de voie, la problématique, l'audit ou le besoin technique que vous souhaitez évaluer...",
+    "btnSubmit": "Demander une évaluation technique",
+    "btnSending": "Envoi en cours...",
+    "successMsg": "✓ Message envoyé avec succès. Nous vous contacterons sous peu.",
+    "errorMsg": "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous écrire directement.",
+    "labelEmail": "Adresse e-mail",
+    "labelWhatsapp": "WhatsApp technique",
+    "labelCoverage": "Couverture normative"
   }
 }

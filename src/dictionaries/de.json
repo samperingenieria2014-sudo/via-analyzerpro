@@ -255,5 +255,27 @@
       "Echte Koordinaten in allen Dokumenten"
     ],
     "a3NotIncludes": []
+  },
+  "Contact": {
+    "badge": "Fortschrittliche Straßenbauingenieurkunst",
+    "title": "Fordern Sie eine technische Bewertung Ihres Straßenbauprojekts an",
+    "subtitle": "Wir analysieren Geometrie, V85-Betriebsgeschwindigkeit, Beschilderung, Sichtweiten und Richtlinienkonformität nach offiziellen Standards von Kolumbien, Peru und Chile.",
+    "fieldName": "Vollständiger Name",
+    "placeholderName": "Geben Sie Ihren Namen ein",
+    "fieldEmail": "E-Mail-Adresse",
+    "placeholderEmail": "Ihre E-Mail-Adresse",
+    "fieldCompany": "Unternehmen / Organisation",
+    "placeholderCompany": "Name Ihres Unternehmens",
+    "fieldCountry": "Projektland",
+    "countryOther": "Anderes",
+    "fieldMessage": "Erzählen Sie uns von Ihrem Projekt",
+    "placeholderMessage": "Beschreiben Sie Straßentyp, Problemstellung, Auditumfang oder technische Anforderungen...",
+    "btnSubmit": "Technische Bewertung Anfordern",
+    "btnSending": "Wird gesendet...",
+    "successMsg": "✓ Nachricht erfolgreich gesendet. Wir werden uns kürze bei Ihnen melden.",
+    "errorMsg": "Fehler beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt.",
+    "labelEmail": "E-Mail-Adresse",
+    "labelWhatsapp": "Technischer WhatsApp-Support",
+    "labelCoverage": "Normenabdeckung"
   }
 }
