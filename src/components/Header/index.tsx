@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -8,16 +9,16 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useLanguage } from "@/context/LanguageContext";
 
 const Header = () => {
-  // 1. Extraemos 't' para obtener las traducciones activas
   const { t, setLanguage } = useLanguage();
   const h = t?.Header;
 
-  // Mapa de traducciones dinámicas para cada ruta del menú
+  // Mapeo corregido según las llaves reales de tu TypeScript/JSON:
+  // usa caseStudies y demo
   const menuTranslations: Record<string, string> = {
     "/": h?.home || "Inicio",
     "#features": h?.services || "Servicios",
     "#metodologia": h?.methodology || "Metodología",
-    "#case-studies": h?.cases || "Casos Reales",
+    "#case-studies": h?.caseStudies || "Casos Reales",
     "#pricing": h?.pricing || "Precios",
     "#contact": h?.contact || "Contacto",
   };
@@ -37,6 +38,7 @@ const Header = () => {
       setSticky(false);
     }
   };
+
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
     return () => window.removeEventListener("scroll", handleStickyNavbar);
@@ -145,15 +147,14 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end gap-3 pr-16 lg:pr-0">
-                {/* Botón traducido */}
+                {/* Corregido: h?.demo en lugar de h?.requestDemo */}
                 <Link
                   href="#contact"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-xs px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  {h?.requestDemo || "Solicitar Demo"}
+                  {h?.demo || "Solicitar Demo"}
                 </Link>
 
-                {/* Conectado directamente a setLanguage del contexto */}
                 <LanguageSwitcher
                   onLanguageChange={(lang) => setLanguage(lang)}
                 />
