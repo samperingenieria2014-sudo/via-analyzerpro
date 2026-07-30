@@ -9,10 +9,12 @@ import "../styles/index.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// Configuración de Metadatos y Hreflang para Google
 export const metadata: Metadata = {
   title: "ViaAnalyzer PRO | Auditoría Vial Inteligente",
   description: "Auditoría vial basada en análisis geométrico, velocidad V85 y normativas de Colombia (INVÍAS), Perú (MTC) y Chile (MOP).",
+  verification: {
+    google: "vV1jlLOZlWIYAg7cyeoC8owR2DNEy1iFyRH_fTOxPjU",
+  },
   alternates: {
     canonical: "https://samperingenieria.vercel.app",
     languages: {
