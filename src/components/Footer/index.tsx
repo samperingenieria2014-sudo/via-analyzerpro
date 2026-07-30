@@ -175,18 +175,39 @@ const Footer = () => {
 
           </div>
 
-          {/* ── Widget FlagCounter ── */}
-          <div className="flex flex-col items-center justify-center pt-4 pb-6">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-body-color dark:text-body-color-dark">
-              {f?.visitorStats || "ESTADÍSTICAS GLOBALES DE VISITANTES"}
+          {/* ── Alcance e Impacto Regional (Diseño SaaS Nativo) ── */}
+          <div className="my-8 flex flex-col items-center justify-center text-center">
+            <p className="mb-3 text-[11px] font-semibold uppercase tracking-widest text-body-color dark:text-body-color-dark/70">
+              {f?.visitorStats || "Alcance e Impacto Regional"}
             </p>
-            <a href="https://info.flagcounter.com/S83j" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://s11.flagcounter.com/count2/S83j/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/timeline_0/"
-                alt="Flag Counter"
-                className="rounded border border-stroke dark:border-dark-3"
-              />
-            </a>
+            
+            <div className="flex flex-wrap items-center justify-center gap-2.5 rounded-full border border-stroke bg-gray-2/50 px-5 py-2.5 backdrop-blur-md dark:border-white/10 dark:bg-white/5">
+              <span className="flex items-center gap-1.5 text-xs font-medium text-body-color dark:text-body-color-dark">
+                <span>🇨🇴</span> Colombia
+              </span>
+              <span className="text-stroke dark:text-white/20">•</span>
+              <span className="flex items-center gap-1.5 text-xs font-medium text-body-color dark:text-body-color-dark">
+                <span>🇵🇪</span> Perú
+              </span>
+              <span className="text-stroke dark:text-white/20">•</span>
+              <span className="flex items-center gap-1.5 text-xs font-medium text-body-color dark:text-body-color-dark">
+                <span>🇨🇱</span> Chile
+              </span>
+              <span className="text-stroke dark:text-white/20">•</span>
+              <span className="flex items-center gap-1.5 text-xs font-medium text-body-color dark:text-body-color-dark">
+                <span>🇺🇸</span> EE.UU.
+              </span>
+              
+              <div className="ml-1 flex items-center gap-2 border-l border-stroke pl-3.5 dark:border-white/10">
+                <span className="relative flex h-2 w-2">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+                </span>
+                <span className="text-[11px] font-semibold text-emerald-600 dark:text-emerald-400">
+                  Auditorías Activas
+                </span>
+              </div>
+            </div>
           </div>
 
           {/* ── Barra inferior ── */}
