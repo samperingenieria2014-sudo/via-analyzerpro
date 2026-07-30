@@ -1,33 +1,37 @@
 "use client";
 
-const stats = [
-  {
-    icon: "📍",
-    valor: "+150",
-    unidad: "km",
-    label: "auditados y analizados",
-  },
-  {
-    icon: "🚦",
-    valor: "+600",
-    unidad: "señales",
-    label: "diseñadas e inventariadas",
-  },
-  {
-    icon: "🌎",
-    valor: "3",
-    unidad: "países",
-    label: "Colombia · Perú · Chile",
-  },
-  {
-    icon: "📋",
-    valor: "+10",
-    unidad: "proyectos",
-    label: "completados exitosamente",
-  },
-];
+import { useLanguage } from "@/context/LanguageContext";
 
 const Stats = () => {
+  const { t } = useLanguage();
+
+  const stats = [
+    {
+      icon: "📍",
+      valor: "+150",
+      unidad: t?.Stats?.stat1Unit || "km",
+      label: t?.Stats?.stat1Label || "auditados y analizados",
+    },
+    {
+      icon: "🚦",
+      valor: "+600",
+      unidad: t?.Stats?.stat2Unit || "señales",
+      label: t?.Stats?.stat2Label || "diseñadas e inventariadas",
+    },
+    {
+      icon: "🌎",
+      valor: "3",
+      unidad: t?.Stats?.stat3Unit || "países",
+      label: t?.Stats?.stat3Label || "Colombia · Perú · Chile",
+    },
+    {
+      icon: "📋",
+      valor: "+10",
+      unidad: t?.Stats?.stat4Unit || "proyectos",
+      label: t?.Stats?.stat4Label || "completados exitosamente",
+    },
+  ];
+
   return (
     <section className="relative py-12 md:py-16">
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5" />

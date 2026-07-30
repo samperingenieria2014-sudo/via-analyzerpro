@@ -14,6 +14,16 @@
     "btnEvaluate": "Straße bewerten",
     "btnServices": "Dienste anzeigen"
   },
+  "Stats": {
+    "stat1Unit": "km",
+    "stat1Label": "geprüft und analysiert",
+    "stat2Unit": "Schilder",
+    "stat2Label": "entworfen und erfasst",
+    "stat3Unit": "Länder",
+    "stat3Label": "Kolumbien · Peru · Chile",
+    "stat4Unit": "Projekte",
+    "stat4Label": "erfolgreich abgeschlossen"
+  },
   "Features": {
     "mainTitle": "Erweiterte Werkzeuge für Verkehrssicherheit und Geometrische Analyse",
     "mainParagraph": "Ingenieurtechnische Automatisierung für Verkehrssicherheitsaudits, geometrische Überprüfung, Beschilderung und betriebliche Bewertung nach technischen Standards.",

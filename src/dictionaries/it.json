@@ -14,6 +14,16 @@
     "btnEvaluate": "Valuta la tua strada",
     "btnServices": "Vedi servizi"
   },
+  "Stats": {
+    "stat1Unit": "km",
+    "stat1Label": "verificati e analizzati",
+    "stat2Unit": "cartelli",
+    "stat2Label": "progettati e inventariati",
+    "stat3Unit": "paesi",
+    "stat3Label": "Colombia · Perù · Cile",
+    "stat4Unit": "progetti",
+    "stat4Label": "completati con successo"
+  },
     "Features": {
     "mainTitle": "Strumenti Avanzati per la Sicurezza Stradale e l'Analisi Geometrica",
     "mainParagraph": "Automazione tecnica orientata ad audit di sicurezza stradale, verifica geometrica, segnaletica e valutazione operativa secondo gli standard tecnici.",

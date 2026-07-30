@@ -14,6 +14,16 @@
     "btnEvaluate": "Évaluer votre route",
     "btnServices": "Voir les services"
   },
+  "Stats": {
+    "stat1Unit": "km",
+    "stat1Label": "audités et analysés",
+    "stat2Unit": "panneaux",
+    "stat2Label": "conçus et inventoriés",
+    "stat3Unit": "pays",
+    "stat3Label": "Colombie · Pérou · Chili",
+    "stat4Unit": "projets",
+    "stat4Label": "réalisés avec succès"
+  },
   "Features": {
     "mainTitle": "Outils Avancés pour la Sécurité Routière et l'Analyse Géométrique",
     "mainParagraph": "Automatisation technique dédiée aux audits de sécurité routière, à la validation géométrique, à la signalisation et à l'évaluation opérationnelle.",

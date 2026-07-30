@@ -14,6 +14,16 @@
     "btnEvaluate": "Evaluate your road",
     "btnServices": "View services"
   },
+  "Stats": {
+    "stat1Unit": "km",
+    "stat1Label": "audited and analyzed",
+    "stat2Unit": "signs",
+    "stat2Label": "designed and inventoried",
+    "stat3Unit": "countries",
+    "stat3Label": "Colombia · Peru · Chile",
+    "stat4Unit": "projects",
+    "stat4Label": "successfully completed"
+  },
   "Features": {
     "mainTitle": "Advanced Tools for Road Safety and Geometric Analysis",
     "mainParagraph": "Technical automation focused on road safety audits, geometric validation, road signage, and operational assessment under Latin American standards.",

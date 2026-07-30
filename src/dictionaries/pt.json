@@ -14,6 +14,16 @@
     "btnEvaluate": "Avaliar sua via",
     "btnServices": "Ver serviços"
   },
+  "Stats": {
+    "stat1Unit": "km",
+    "stat1Label": "auditados e analisados",
+    "stat2Unit": "placas",
+    "stat2Label": "projetadas e inventariadas",
+    "stat3Unit": "países",
+    "stat3Label": "Colômbia · Peru · Chile",
+    "stat4Unit": "projetos",
+    "stat4Label": "concluídos com sucesso"
+  },
   "Features": {
     "mainTitle": "Ferramentas Avançadas para Segurança Viária e Análise Geométrica",
     "mainParagraph": "Automação técnica voltada para auditorias viárias, validação geométrica, sinalização e avaliação operacional sob normas da América Latina.",

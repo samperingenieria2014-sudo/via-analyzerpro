@@ -14,6 +14,16 @@
     "btnEvaluate": "Oceń swoją drogę",
     "btnServices": "Zobacz usługi"
   },
+  "Stats": {
+    "stat1Unit": "km",
+    "stat1Label": "zaaudytowanych i przeanalizowanych",
+    "stat2Unit": "znaki",
+    "stat2Label": "zaprojektowane i zinwentaryzowane",
+    "stat3Unit": "kraje",
+    "stat3Label": "Kolumbia · Peru · Chile",
+    "stat4Unit": "projekty",
+    "stat4Label": "zakończone sukcesem"
+  },
     "Features": {
     "mainTitle": "Zaawansowane Narzędzia do Audytu Bezpieczeństwa Ruchu i Analizy Geometrycznej",
     "mainParagraph": "Automatyzacja inżynieryjna dedykowana audytom drogowym, weryfikacji geometrii, oznakowaniu i ocenie operacyjnej według norm technicznych.",
