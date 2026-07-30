@@ -34,5 +34,14 @@
     "description": "Audit routier intelligent basé sur l'analyse géométrique, la vitesse V85 et les normes officielles de Colombie, du Pérou et du Chili.",
     "visitorStats": "Statistiques Globales des Visiteurs",
     "rights": "Tous droits réservés"
+  },
+  "Video": {
+    "badge": "MODULE COLOMBIE ACTIF",
+    "title": "Optimisation et Validation Routière en Temps Réel",
+    "paragraph": "Découvrez comment notre méthodologie transforme les données d'ingénierie en décisions intelligentes de sécurité routière. Cette vidéo interactive présente la validation de projets routiers selon les normes internationales latino-américaines, en automatisant les rapports critiques sur les coûts de signalisation, le bilan des terrassements et le respect des critères de visibilité. Réduisez les erreurs de conception et optimisez l'audit technique de vos ouvrages grâce à une interface intuitive et performante.",
+    "feature1": "Vérification de la cohérence de la vitesse pratiquée (V85).",
+    "feature2": "Calcul automatique de la Distance de Visibilité d'Arrêt (DVA).",
+    "feature3": "Génération de schémas de signalisation verticale et horizontale.",
+    "fallback": "Votre navigateur ne prend pas en charge la lecture de vidéos."
   }
 }

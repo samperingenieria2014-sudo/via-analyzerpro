@@ -34,5 +34,14 @@
     "description": "Audit stradale intelligente basato su analisi geometrica, velocità operativa V85 e normative ufficiali di Colombia, Perù e Cile.",
     "visitorStats": "Statistiche Globali dei Visitatori",
     "rights": "Tutti i diritti riservati"
+  },
+  "Video": {
+    "badge": "MODULO COLOMBIA ATTIVO",
+    "title": "Ottimizzazione e Validazione Stradale in Tempo Reale",
+    "paragraph": "Scopri come la nostra metodologia trasforma i dati di ingegneria in decisioni intelligenti per la sicurezza stradale. Questo video interattivo mostra la validazione di progetti stradali secondo standard internazionali dell'America Latina, automatizzando report critici su costi di segnaletica, bilancio dei movimenti terra e rispetto dei criteri di visibilità. Riduci gli errori di progettazione e ottimizza l'audit tecnico delle tue opere con un'interfaccia intuitiva ad alte prestazioni.",
+    "feature1": "Verifica della coerenza della velocità operativa (V85).",
+    "feature2": "Calcolo automatico della Distanza di Visuale per l'Arresto (DVA).",
+    "feature3": "Generazione di schemi di segnaletica verticale e orizzontale.",
+    "fallback": "Il tuo browser non supporta la riproduzione video."
   }
 }

@@ -34,5 +34,14 @@
     "description": "Auditoría vial inteligente basada en análisis geométrico, velocidad operacional V85 y normativa oficial de Colombia, Perú y Chile.",
     "visitorStats": "Estadísticas Globales de Visitantes",
     "rights": "Todos los derechos reservados"
+  },
+  "Video": {
+    "badge": "MÓDULO COLOMBIA ACTIVO",
+    "title": "Optimización y Validación Vial en Tiempo Real",
+    "paragraph": "Descubra cómo nuestra metodología transforma los datos de ingeniería en decisiones inteligentes de seguridad vial. Este video interactivo muestra la validación de proyectos viales bajo estándares internacionales latinoamericanos, automatizando reportes críticos de costos de señalización, balance de movimientos de tierra y cumplimiento de criterios de visibilidad. Reduzca errores de diseño y optimice la auditoría técnica de sus obras con una interfaz intuitiva de alto rendimiento.",
+    "feature1": "Verificación de consistencia de velocidad operacional (V85).",
+    "feature2": "Cálculo automático de Distancia de Visibilidad de Parada (DVP).",
+    "feature3": "Generación de esquemas de señalización vertical y horizontal.",
+    "fallback": "Tu navegador no soporta la reproducción de video."
   }
 }

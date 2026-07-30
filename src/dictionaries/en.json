@@ -30,9 +30,20 @@
     "brochure2Title": "Smart Road Infrastructure",
     "brochure2Desc": "Full portfolio covering geometric design, technical automation, and engineering services — 13 pages."
   },
+  
   "Footer": {
     "description": "Smart road auditing based on geometric analysis, V85 operating speed, and official technical standards from Colombia, Peru, and Chile.",
     "visitorStats": "Global Visitor Statistics",
     "rights": "All rights reserved"
+  },
+  
+  "Video": {
+    "badge": "COLOMBIA MODULE ACTIVE",
+    "title": "Real-Time Road Optimization and Validation",
+    "paragraph": "Discover how our methodology transforms engineering data into smart road safety decisions. This interactive video showcases road project validation under Latin American standards, automating critical reports for signage costs, earthwork balances, and sight distance compliance. Reduce design errors and streamline technical auditing with an intuitive, high-performance interface.",
+    "feature1": "Operating speed consistency verification (V85).",
+    "feature2": "Automated Stopping Sight Distance (SSD) calculation.",
+    "feature3": "Automated vertical and horizontal road signage layout generation.",
+    "fallback": "Your browser does not support video playback."
   }
 }

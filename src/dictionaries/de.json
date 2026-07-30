@@ -34,5 +34,14 @@
     "description": "Intelligentes Straßenaudit auf Basis von Geometrieanalyse, V85-Geschwindigkeit und offiziellen Normen aus Kolumbien, Peru und Chile.",
     "visitorStats": "Globale Besucherstatistiken",
     "rights": "Alle Rechte vorbehalten"
+  },
+  "Video": {
+    "badge": "KOLUMBIEN-MODUL AKTIV",
+    "title": "Echtzeit-Straßenoptimierung und -Validierung",
+    "paragraph": "Entdecken Sie, wie unsere Methodik Ingenieurdaten in intelligente Entscheidungen für die Verkehrssicherheit verwandelt. Dieses interaktive Video zeigt die Validierung von Straßenprojekten nach lateinamerikanischen Standards mit automatisierter Erstellung kritischer Berichte zu Beschilderungskosten, Erdbewegungsbilanzen und Sichtweitenkriterien.",
+    "feature1": "Überprüfung der Konsistenz der Entwurfsgeschwindigkeit (V85).",
+    "feature2": "Automatische Berechnung der Erforderlichen Haltesichtweite.",
+    "feature3": "Erstellung von Plänen für vertikale und horizontale Beschilderung.",
+    "fallback": "Ihr Browser unterstützt keine Videowiedergabe."
   }
 }

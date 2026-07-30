@@ -34,5 +34,14 @@
     "description": "Inteligentny audyt drogowy oparty na analizie geometrycznej, prędkości operacyjnej V85 i normach technicznych Kolumbii, Peru i Chile.",
     "visitorStats": "Globalne Statystyki Odwiedzin",
     "rights": "Wszelkie prawa zastrzeżone"
+  },
+  "Video": {
+    "badge": "MODUŁ KOLUMBIA AKTYWNY",
+    "title": "Optymalizacja i Weryfikacja Drogowa w Czasie Rzeczywistym",
+    "paragraph": "Odkryj, jak nasza metodologia przekształca dane inżynieryjne w inteligentne decyzje z zakresu bezpieczeństwa ruchu drogowego. Ten interaktywny film przedstawia weryfikację projektów drogowych według międzynarodowych standardów Ameryki Łacińskiej, automatyzując kluczowe raporty dotyczące kosztów oznakowania, bilansu robót ziemnych oraz spełnienia kryteriów widoczności. Zmniejsz błędy projektowe i zoptymalizuj audyt techniczny swoich inwestycji dzięki intuicyjnemu interfejsowi o wysokiej wydajności.",
+    "feature1": "Weryfikacja spójności prędkości miarodajnej (V85).",
+    "feature2": "Automatyczne obliczanie Wymaganej Widoczności na Zatrzymanie.",
+    "feature3": "Generowanie schematów oznakowania pionowego i poziomego.",
+    "fallback": "Twoja przeglądarka nie obsługuje odtwarzania wideo."
   }
 }
