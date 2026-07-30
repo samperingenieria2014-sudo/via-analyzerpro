@@ -8,6 +8,12 @@
     "contact": "Kontakt",
     "demo": "Demo Anfordern"
   },
+  "Hero": {
+    "title": "Intelligenz, Präzision und Regelkonformität auf jedem Kilometer",
+    "description": "Wir sind ein Ingenieurteam, das auf Straßenbetriebsaudits, geometrische Überprüfung und Beschilderung spezialisiert ist. Wir verarbeiten Ihr Civil 3D-Modell und liefern technische Berichte mit Befunden, V85-Analyse und Beschilderung nach INVIAS-, MTC- und MOP-Standards.",
+    "btnEvaluate": "Straße bewerten",
+    "btnServices": "Dienste anzeigen"
+  },
   "Features": {
     "mainTitle": "Erweiterte Werkzeuge für Verkehrssicherheit und Geometrische Analyse",
     "mainParagraph": "Ingenieurtechnische Automatisierung für Verkehrssicherheitsaudits, geometrische Überprüfung, Beschilderung und betriebliche Bewertung nach technischen Standards.",

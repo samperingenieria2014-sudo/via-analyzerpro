@@ -8,6 +8,12 @@
     "contact": "Contacto",
     "demo": "Solicitar Demo"
   },
+  "Hero": {
+    "title": "Inteligencia, precisión y cumplimiento en cada kilómetro",
+    "description": "Somos un equipo de ingenieros especializados en auditoría vial, validación geométrica y señalización. Procesamos tu modelo Civil 3D y entregamos informes técnicos con hallazgos, V85 y señalización bajo normativa INVIAS, MTC y MOP.",
+    "btnEvaluate": "Evalúa tu vía",
+    "btnServices": "Ver servicios"
+  },
   "Features": {
     "mainTitle": "Herramientas avanzadas para seguridad vial y análisis geométrico",
     "mainParagraph": "Automatización técnica orientada a auditorías viales, validación geométrica, señalización y evaluación operacional bajo normativa latinoamericana.",

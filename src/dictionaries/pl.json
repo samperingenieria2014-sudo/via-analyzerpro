@@ -8,7 +8,13 @@
     "contact": "Kontakt",
     "demo": "Zamów Demo"
   },
-  "Features": {
+  "Hero": {
+    "title": "Inteligencja, precyzja i zgodność na każdym kilometrze",
+    "description": "Jesteśmy zespołem inżynierów specjalizujących się w audycie drogowym, weryfikacji geometrycznej i oznakowaniu. Przetwarzamy Twój model Civil 3D i dostarczamy raporty techniczne z wykrytymi nieprawidłowościami, V85 i oznakowaniem wg norm INVIAS, MTC i MOP.",
+    "btnEvaluate": "Oceń swoją drogę",
+    "btnServices": "Zobacz usługi"
+  },
+    "Features": {
     "mainTitle": "Zaawansowane Narzędzia do Audytu Bezpieczeństwa Ruchu i Analizy Geometrycznej",
     "mainParagraph": "Automatyzacja inżynieryjna dedykowana audytom drogowym, weryfikacji geometrii, oznakowaniu i ocenie operacyjnej według norm technicznych.",
     "feature1_title": "Audyt Bezpieczeństwa Ruchu Drogowego",

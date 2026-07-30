@@ -8,6 +8,12 @@
     "contact": "Contact",
     "demo": "Demander une Démo"
   },
+  "Hero": {
+    "title": "Intelligence, précision et conformité à chaque kilomètre",
+    "description": "Nous sommes une équipe d'ingénieurs spécialisés en audit routier, validation géométrique et signalisation. Nous traitons votre modèle Civil 3D et fournissons des rapports techniques avec constatations, V85 et signalisation selon les normes INVIAS, MTC et MOP.",
+    "btnEvaluate": "Évaluer votre route",
+    "btnServices": "Voir les services"
+  },
   "Features": {
     "mainTitle": "Outils Avancés pour la Sécurité Routière et l'Analyse Géométrique",
     "mainParagraph": "Automatisation technique dédiée aux audits de sécurité routière, à la validation géométrique, à la signalisation et à l'évaluation opérationnelle.",

@@ -8,6 +8,12 @@
     "contact": "Contact",
     "demo": "Request Demo"
   },
+  "Hero": {
+    "title": "Intelligence, precision, and compliance on every kilometer",
+    "description": "We are a team of engineers specialized in road auditing, geometric validation, and signage. We process your Civil 3D model and deliver technical reports with findings, V85 speed analysis, and signage under INVIAS, MTC, and MOP regulations.",
+    "btnEvaluate": "Evaluate your road",
+    "btnServices": "View services"
+  },
   "Features": {
     "mainTitle": "Advanced Tools for Road Safety and Geometric Analysis",
     "mainParagraph": "Technical automation focused on road safety audits, geometric validation, road signage, and operational assessment under Latin American standards.",

@@ -8,7 +8,13 @@
     "contact": "Contatto",
     "demo": "Richiedi Demo"
   },
-  "Features": {
+  "Hero": {
+    "title": "Intelligenza, precisione e conformità su ogni chilometro",
+    "description": "Siamo un team di ingegneri specializzati in audit stradale, validazione geometrica e segnaletica. Elaboriamo il tuo modello Civil 3D e forniamo report tecnici con rilevamenti, V85 e segnaletica secondo le normative INVIAS, MTC e MOP.",
+    "btnEvaluate": "Valuta la tua strada",
+    "btnServices": "Vedi servizi"
+  },
+    "Features": {
     "mainTitle": "Strumenti Avanzati per la Sicurezza Stradale e l'Analisi Geometrica",
     "mainParagraph": "Automazione tecnica orientata ad audit di sicurezza stradale, verifica geometrica, segnaletica e valutazione operativa secondo gli standard tecnici.",
     "feature1_title": "Audit di Sicurezza Stradale",
